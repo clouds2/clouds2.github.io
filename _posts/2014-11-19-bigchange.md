@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 티오씨라면
-tags: tttag 티오시 toc
+title: toc test 
+tags: tttag toc
 ---
 
 
-<div id="toc"><p class="toc_title">목차</p></div>
+<div id="toc"></div>
 
 ## toc test. 
 
