@@ -7,7 +7,7 @@ title: seoulrain.net
 	<ul>
 	  {% for post in site.posts %}
 	    <li data-index="{{ post.title | downcase }}">
-	      <a href="{{ post.url }}">{{ post.title }}</a> │ <small>{{ post.date | date_to_string }}</small>
+	      <a href="{{ post.url }}">{{ post.title }}</a> (<small>{{ post.date | date_to_string }}</small>)
 	    </li>
 	  {% endfor %}
 	</ul>
