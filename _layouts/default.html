@@ -55,12 +55,12 @@
     </div>
 
     {% include analytics.html %}
+	  <!-- TOC Generator -->
+  <script src="/js/jquery.toc-1.1.4.min.js"></script>
   <!-- TOC Generator -->
-<!-- Normal version -->
-<script src="http://samaxesjs.googlecode.com/files/jquery.toc-1.1.4.js"></script>
- <!-- TOC Generator -->
- <script>
-$('#toc').toc({exclude: 'h1, h6'});
+  <script>
+     $('#toc').toc({exclude: 'h1, h6', autoId: true});
+  </script>
 </script>
   </body>
 </html>
