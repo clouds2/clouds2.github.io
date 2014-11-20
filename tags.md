@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /tags
+permalink: /tags/
 ---
 {% capture tags %}
   {% for tag in site.tags %}
