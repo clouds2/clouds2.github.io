@@ -53,17 +53,12 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
-markdown:     redcarpet
+
+markdown: redcarpet
 
 redcarpet:
-    extensions: 
-      - no_intra_emphasis
-      - fenced_code_blocks
-      - tables
-      - strikethrough
-      - superscript
-      - autolink
-      - hard_wrap
+    extensions: [with_toc_data]
+
 
 highlighter: pygments
 permalink: /:categories/:year-:month-:day/:title
