@@ -4,9 +4,9 @@ title: toc test
 tags: tttag toc
 ---
 
-<div class="toc"></div>
-<!--
-<div id="toc"><p class="toc_title">목차</p></div> -->
+
+
+<div id="toc"><p class="toc_title">목차</p></div>
 
 ## toc test. 
 
