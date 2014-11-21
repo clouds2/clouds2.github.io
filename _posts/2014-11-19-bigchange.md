@@ -13,7 +13,7 @@ tags: tttag toc 가나다 맙소사택
 2. 리스트 둘
 3. 리스트 셋
 
-Code::Blocks is a cross-platform IDE that supports compiling and running multiple ... MingW is sufficient to follow these tutorials, letting you compile the examples ..
+Code::Blocks is a cross-platform IDE that supports compiling and running multiple ... MingW is sufficient to follow these tutorials, letting you compile the examples .. 다음 사이트를 참고하세요. http://daum.net 에서는 .. 이렇다고 합니다. 
 
 
 ## h2 header that counts
