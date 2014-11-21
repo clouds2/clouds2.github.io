@@ -14,9 +14,10 @@ tags: tttag toc 가나다 맙소사택
 
 ## h2 header that counts
 
+{% highlight javascript %}
 	/* Some pointless Javascript */
 	var rawr = ["r", "a", "w", "r"];
-
+{% endhighlight %}
 
 dfadsfasdfasdf asdf asdf asdfasdfa asd asdf asdf asdf asdf
 'as dfasdfa
@@ -29,11 +30,11 @@ dfadsfasdfasdf asdf asdf asdfasdfa asd asdf asdf asdf asdf
 > ㅇㅁㄹㄴㅇㄹ
 
 넣는 너의 인생을 하는 청춘이 그것을 있으랴? 때에, 날카로우나 되는 것은 거친 봄바람이다. 찬미를 인간은 풀밭에 희망의 풀이 있으랴? 그것은 현저하게 무엇이 황금시대의 것이다. 물방아 우리 꽃이 길을 청춘 우
-
+{% highlight html %}
 	<pre data-lang="HTML"><code markup="tt" class="language-markup"><div>
 	  <p>I'm some code.</p>
-	<div></​code></​pre>
-
+	<div></​code></​pre> 
+{% endhighlight %}
 
 ## h2 세 번째 제목이다
 asdfasdf
