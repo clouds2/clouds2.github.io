@@ -40,11 +40,11 @@ dfadsfasdfasdf asdf asdf asdfasdfa asd asdf asdf asdf asdf
 
 ## h2 세 번째 제목이다
 
-{% highlight html %}
+
 	<pre data-lang="HTML"><code markup="tt" class="language-markup"><div>
 	  <p>I'm some code.</p>
 	<div></​code></​pre> 
-{% endhighlight %}
+
 
 asdfasdf
 
