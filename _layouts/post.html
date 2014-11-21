@@ -11,15 +11,17 @@ layout: default
 <!-- tag, category search -->
 <script defer src="/js/alexpearce.js"></script>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
 
  <ul class="tags post-tags cf">
     {% for tag in page.tags %}
     <li><a href="/search/?tags={{ tag }}">{{ tag | downcase }}</a></li>
     {% endfor %}
   </ul>
+
+
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
   
   {% include disqus.html disqus_identifier=page.disqus_identifier %}
 </article>
@@ -30,9 +32,6 @@ layout: default
   <!-- jquery -->
 	 <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	 
-	<!-- tag, category search -->
-<script defer src="/js/alexpearce.js"></script>
-
   <!-- TOC Generator -->
   <script src="/js/jquery.toc-1.1.4.min.js"></script>
   <script>
