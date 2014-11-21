@@ -14,6 +14,10 @@ tags: tttag toc 가나다 맙소사택
 
 ## h2 header that counts
 
+	/* Some pointless Javascript */
+	var rawr = ["r", "a", "w", "r"];
+
+
 dfadsfasdfasdf asdf asdf asdfasdfa asd asdf asdf asdf asdf
 'as dfasdfa
 
