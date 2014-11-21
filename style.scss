@@ -280,9 +280,45 @@ footer {
   text-align: center;
 }
 
+
+// 본문 제목 가운데 정렬, 날짜 기입
+article h1 {
+  margin-bottom: 8px;
+  line-height: 120%;
+  text-align: center !important;
+}
+
+.meta {
+  color: #666;
+  display: inline-block;
+  border-top: 1px solid #ccc;
+  font-size: 0.9em;
+  margin-top: 4px;
+  padding: 4px 8px;
+}
+
+
+
+
+
+
+
+
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 // @import "_highlights";
+
+
+
+
+
+
+
+
+
+
 
 
 /*****************************************************************************/
@@ -322,7 +358,7 @@ footer {
 
 /*****************************************************************************/
 /*
-/* Syntac Highlights
+/* Syntax Highlights
 /*
 /*****************************************************************************/
 
