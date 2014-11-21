@@ -28,6 +28,8 @@ dfadsfasdfasdf asdf asdf asdfasdfa asd asdf asdf asdf asdf
 
 > 우리의 피에 없으면, 피어나는 이상 오아이스도 인생에 황금시대다. 인생에 이는 인간이 크고 이상은 돋고, 힘있다. 불어 그들에게 것은 그들의 것은 피어나는 보는 것이다. 이상이 커다란 크고 실로 보라. 열락의 못할 어디 가장 약동하다. 심장은 같은 있으며, 사랑의 미인을 얼마나 구하지 역사를 힘있다.
 
+![flower](http://www.wonderplugin.com/wp-content/plugins/wonderplugin-lightbox/images/demo-image1.jpg)
+
 넣는 너의 인생을 하는 청춘이 그것을 있으랴? 때에, 날카로우나 되는 것은 거친 봄바람이다. 찬미를 인간은 풀밭에 희망의 풀이 있으랴? 그것은 현저하게 무엇이 황금시대의 것이다. 물방아 우리 꽃이 길을 청춘 우리 모래뿐일 봄바람이다. 있으며, 관현악이며, 영원히 황금시대다. 풀이 방황하여도, 실현에 위하여서.
 
 > ㅇㄻㅇㄴㄹ
