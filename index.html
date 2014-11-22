@@ -8,9 +8,7 @@ layout: default
      <article class="post">   
       
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      <div class="left">
-  ddd
-</div>
+     {{ page.date | date_to_string}}
       <div class="entry">
 		{{ post.content | strip_html | truncatewords:75}}
         <!--{{ post.content | truncatewords:20}} -->		
