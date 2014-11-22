@@ -14,11 +14,14 @@ layout: default
 	
 <ul class="tags post-tags cf">
     {% for tag in page.tags %}
-    <li><a href="/search.html/?tags={{ tag }}">{{ tag | downcase }}</a></li>
+    <li><a href="/search/?tags={{ tag }}">{{ tag | downcase }}</a></li>
     {% endfor %}
   </ul>
 	
   </div>
+
+
+<script defer src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <!-- tag, category search -->
 <script defer src="/js/alexpearce.js"></script>
 
@@ -33,9 +36,6 @@ layout: default
 
 
 
-  <!-- jquery -->
-	 <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	 
   <!-- TOC Generator -->
   <script src="/js/jquery.toc-1.1.4.min.js"></script>
   <script>
