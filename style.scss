@@ -123,6 +123,15 @@ img {
   margin: .2em;
 }
 
+.article.posts .date {
+  color: #999;
+  font-family: "Titillium Web", monospace;
+  font-size: 90%;
+  margin-right: 0.5em;
+}
+
+
+
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
