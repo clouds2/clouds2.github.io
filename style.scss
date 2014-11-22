@@ -123,12 +123,7 @@ img {
   margin: .2em;
 }
 
-.article.posts .date {
-  color: #999;
-  font-family: "Titillium Web", monospace;
-  font-size: 90%;
-  margin-right: 0.5em;
-}
+
 
 
 
@@ -268,6 +263,13 @@ nav {
   padding-left: 15px;
   border-left: 3px solid #ccc;
   }
+
+.post .date {
+  color: #999;
+  font-family: "Titillium Web", monospace;
+  font-size: 90%;
+  margin-right: 0.5em;
+}
 
   .comments {
     margin-top: 10px;
