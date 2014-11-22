@@ -37,7 +37,8 @@ h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
   font-weight: bold;
   
-
+  line-height: 1.7;
+  margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
@@ -258,7 +259,13 @@ nav {
 
 
 
-.post blockquote {  
+.fhead h2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.post { 
+  blockquote {  
   font-family: 나눔고딕;
   margin-top: 10px;
   margin-bottom: 10px;
