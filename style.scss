@@ -487,10 +487,11 @@ div#toc {
   display: table;
   margin-left: 1em;
   margin-bottom: 1em;
-  width: auto;
+  min-width: 700px;
   padding: 10px 20px 10px 8px;
   float: right;
 }
+
 div#toc ul {
   list-style: none;
   margin-left: 0;
