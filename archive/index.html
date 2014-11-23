@@ -4,20 +4,19 @@ title: seoulrain.net
 ---
 
 <article>
- 
+  <h3>This year's posts</h3>
   {%for post in site.posts %}
+    {% unless post.next %}
     
-     
         <h3>{{ post.date | date: '%Y' }}</h3>
-   <ul>
-    
- 
+        <ul class="past">
+      {% endif %}
+    {% endunless %}
       <li> 
       <a href="{{ post.url }}">{{ post.title }}</a> <span class="date">{{ post.date | date: "%b%d" }}</span>
       </li>
-      </ul>
   {% endfor %}
-  
+  </ul>
 </article> 
 
 <!--
