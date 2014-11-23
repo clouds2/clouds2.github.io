@@ -22,7 +22,7 @@ Tags: {% for tagitem in site.tags %} [{{ tagitem[0] }}](#{{ tagitem[0] }}) {% en
          
         <li>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span><
+          <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
           <!--
           {% if post.tags != empty %} <div class="tag-icon-image"> {% for tag in post.tags %} <div class="tag-link"><a href="#{{ tag }}">{{ tag }}</a></div> {% endfor %}</div>{% endif %} -->
          </div>
