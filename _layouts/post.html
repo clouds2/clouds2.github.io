@@ -14,12 +14,11 @@ layout: default
 {% if page.tags != empty %} 
  <div class="tag-icon-image"> 
     <!-- iterate through tags in the current page using page.tags variable -->
-    {%  for tag in page.tags  %} 
-      <div class="tag-link">
-       <!-- link to appropriate tag anchor in tags.html -->
-       <a href="/tags#tag_{{ tag }}">{{ tag }}</a>
-      </div> 
-    {%  endfor %}
+   <ul class="tags post-tags cf">
+    {% for tag in page.tags %}
+    <li><a href="/search/?tags={{ tag }}">{{ tag | downcase }}</a></li>
+    {% endfor %}
+  </ul>
  </div>
 {%  endif  %}
 
