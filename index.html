@@ -8,7 +8,7 @@ layout: default
      <article class="post">   
       
       <h2 id=fhead><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a></h2>
-      <br><span class="date">{{ post.date | date_to_string }}</span>
+      <span class="date">{{ post.date | date_to_string }}</span>
         
       <div class="entry">
 		{{ post.content | strip_html | truncatewords:75}}
