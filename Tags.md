@@ -1,0 +1,32 @@
+Tags: 
+{% for tagitem in site.tags  %} 
+  [{{  tagitem[0] }}](#{{ tagitem[0] }}) 
+{% endfor %}
+<!-- iterate through all tags on the site --> 
+{% for tagitem in site.tags %} 
+
+<!-- for each tag, create an anchor by using the tag name as an id --> 
+<div id="{{ tagitem[0] }}">  
+<h2> {{ tagitem[0] }} </h2>  <!-- for create a heading --> 
+
+ <ul> <!-- create the list of posts -->
+ <!-- iterate through all the posts on the site --> 
+ {% for post in site.posts %} 
+      <!-- list only those which contain the current tag --> 
+      {% if post.tags contains tagitem[0] %} 
+         
+        <li>
+           <div class="tag-icon-image">
+             <!-- iterate and list the tags for the current post --> 
+             {% for tag in post.tags %} 
+                <div class="tag-link"><a href="#{{ tag }}">{{ tag }}</a></div> {% endfor %}</div>
+             {% endif %} 
+           </div>
+        </li>
+
+      {% endif %}
+  {% endfor %}
+</ul>
+
+</div>
+{% endfor %}
