@@ -91,7 +91,7 @@
       for (var j in tags) {
         tagsList += ''
           + '<li>'
-            + '<a href="/search.html?tags=' + tags[j] + '">' + tags[j] + '</a>'
+            + '<a href="/search?tags=' + tags[j] + '">' + tags[j] + '</a>'
           + '</li>';
       }
       tagsList += '</ul>';
@@ -106,7 +106,7 @@
             // Post date
             + '<h2>'
               + post.date.formatted
-              + ' in <a href="/search.html?category=' + post.category + '">'
+              + ' in <a href="/search?category=' + post.category + '">'
               +  majusculeFirst(post.category) + '</a>'
             + '</h2>'
             // Tags
