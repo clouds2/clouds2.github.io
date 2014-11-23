@@ -7,8 +7,9 @@ layout: default
     {% for post in paginator.posts %}
      <article class="post">   
       
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a></h3>
+      
       <span class="date">{{ post.date | date_to_string }}</span>
+      <strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a></strong>
         
       <div class="entry">
 		{{ post.content | strip_html | truncatewords:75}}
