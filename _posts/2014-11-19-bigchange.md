@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 이 게시물은 테스트를 위해 작성되었습니다.
-tags: tttag 가나다 맙소사택
+tags: tttag 가나다 toc 맙소사택
 ---
 
 <div id="toc"><p class="toc_title">목차</p></div>
