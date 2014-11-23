@@ -1,37 +1,35 @@
 ---
-layout: default
+layout: page
 title: Tags
+permalink: /tags/
 ---
 
-Tags: 
-{% for tagitem in site.tags  %} 
-  [{{  tagitem[0] }}](#{{ tagitem[0] }}) 
-{% endfor %}
-<!-- iterate through all tags on the site --> 
-{% for tagitem in site.tags %} 
+Tags: {% for tagitem in site.tags %} [{{ tagitem[0] }}](#{{ tagitem[0] }}) {% endfor %}
 
-<!-- for each tag, create an anchor by using the tag name as an id --> 
-<div id="{{ tagitem[0] }}">  
-<h2> {{ tagitem[0] }} </h2>  <!-- for create a heading --> 
 
- <ul> <!-- create the list of posts -->
- <!-- iterate through all the posts on the site --> 
- {% for post in site.posts %} 
-      <!-- list only those which contain the current tag --> 
-      {% if post.tags contains tagitem[0] %} 
+<hr>
+
+{% for tagitem in site.tags %}
+
+<div id="{{ tagitem[0] }}">
+<h2> {{ tagitem[0] }} </h2>
+ <ul>
+  {% for post in site.posts %}
+ 
+      {% if post.tags contains tagitem[0] %}
          
         <li>
-           <div class="tag-icon-image">
-             <!-- iterate and list the tags for the current post --> 
-             {% for tag in post.tags %} 
-                <div class="tag-link"><a href="#{{ tag }}">{{ tag }}</a></div> {% endfor %}</div>
-             {% endif %} 
-           </div>
-        </li>
-
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><span class="small-post-date"> - {{ post.date | date: "%b %-d, %Y" }}</span>
+          {% if post.tags != empty %} <div class="tag-icon-image"> {% for tag in post.tags %} <div class="tag-link"><a href="#{{ tag }}">{{ tag }}</a></div> {% endfor %}</div>{% endif %} 
+         </div>
+</li>
       {% endif %}
+
   {% endfor %}
 </ul>
 
 </div>
 {% endfor %}
+
+
+
