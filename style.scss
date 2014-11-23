@@ -7,6 +7,7 @@
 
 @import "_reset";
 @import "_variables";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css)
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -19,7 +20,7 @@ html {
 
 body {
   background: $white;
-  font: 16px/1.4 $helvetica;
+  font: 16px/1.4 'Nanum Gothic', $helvetica;
   color: $darkGray;
 }
 
@@ -33,10 +34,9 @@ body {
 .center { text-align: center; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: 'Nanum Gothic', $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
-  
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
