@@ -1,6 +1,10 @@
 #
 # This file contains configuration flags to customize your site
 #
+safe: true
+highlighter: pygments
+lsi: false
+
 
 # Name of your site (displayed in the header)
 name: SEOULRAIN
@@ -53,7 +57,6 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
-lsi: false
 markdown: redcarpet
 
 redcarpet:
@@ -67,7 +70,6 @@ redcarpet:
       - hard_wrap
 
 
-highlighter: pygments
 
 permalink: pretty
 # permalink: /:categories/:year/:month/:day/:title
