@@ -10,14 +10,14 @@ layout: default
   <p class="meta">{{ page.date | date_to_string}}</p>
 </div>
 
-<!-- only display tag "infrastructure" if there are tags -->
+<!-- tag system : only display tag "infrastructure" if there are tags -->
 {% if page.tags != empty %} 
  <div class="tag-icon-image"> 
     <!-- iterate through tags in the current page using page.tags variable -->
     {%  for tag in page.tags  %} 
       <div class="tag-link">
        <!-- link to appropriate tag anchor in tags.html -->
-       <a href="/tags#{{ tag }}">{{ tag }}</a>
+       <a href="/tags#tag_{{ tag }}">{{ tag }}</a>
       </div> 
     {%  endfor %}
  </div>
