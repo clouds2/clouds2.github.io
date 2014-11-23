@@ -6,11 +6,7 @@ title: 영문 마크다운 markdown
 
 ## Stygio et flatuque abesse
 
-Lorem markdownum fossa, haliaeetus silentum. Vix tota, incipit parentis solent,
-proceres multaque. Quoque aether agilis; dona hac patrias exstabant
-[campoque](http://html9responsiveboilerstrapjs.com/) vitat sceleratior levis
-praeceps, qui cerae. Dum macies cupido boni Polydoreo pretium tum poscit armis,
-dum! Si genero attonitos sorores Dictys, in parte aristas diris.
+Lorem markdownum fossa, haliaeetus silentum. Vix tota, incipit parentis solent, proceres multaque. Quoque aether agilis; dona hac patrias exstabant [campoque](http://html9responsiveboilerstrapjs.com/) vitat sceleratior levis praeceps, qui cerae. Dum macies cupido boni Polydoreo pretium tum poscit armis, dum! Si genero attonitos sorores Dictys, in parte aristas diris.
 
     if (dot_browser.cyberbullying.ipodDnsInfringement(18, mountainPram) ==
             netbiosVirusLogic + browserBarRw) {
