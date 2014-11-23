@@ -6,7 +6,7 @@ permalink: /tags/
 
 <!--from http://hamishwillee.github.io/2014/06/06/tags-in-jekyll-without-plugins/ -->
 
-Tags: {% for tagitem in site.tags %} [{{ tagitem[0] }}](#{{ tagitem[0] }}) {% endfor %}
+Tags: {% for tagitem in site.tags %} [tag_{{ tagitem[0] }}](#{{ tagitem[0] }}) {% endfor %}
 
 
 <hr>
