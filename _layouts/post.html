@@ -17,11 +17,11 @@ layout: default
 
   </div>
 
-  <div>
+ 
 
 <!-- tag system : only display tag "infrastructure" if there are tags -->
 {% if page.tags != empty %} 
-
+ <div>
     <!-- iterate through tags in the current page using page.tags variable -->
    <ul class="tags post-tags cf">
    <li>Tagged:</li>
@@ -29,9 +29,9 @@ layout: default
     <li><a href="/search/?tags={{ tag }}">{{ tag | downcase }}</a></li>
     {% endfor %}
   </ul>
-
+ </div>
 {%  endif  %}
-  </div>
+ 
 
 
 
