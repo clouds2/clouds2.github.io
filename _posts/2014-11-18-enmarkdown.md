@@ -41,6 +41,19 @@ dedit semel mediam ab videre haec metuens victa litibus? Dei via Theridamas
 - Dominos fecere gelido
 - Periturae mixtaque
 
+ruby example 
+
+{% highlight ruby linenos %}
+def show
+  puts "Outputting a very lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong line"
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}
+
 ## Arreptum virga nomine Picus suas femineos conplevit
 
 E neglectos genis; me pater. **Non ignes** malum pelagi, **quaterque**, placuit
