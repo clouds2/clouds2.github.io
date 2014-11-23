@@ -10,6 +10,13 @@ layout: default
   <p class="meta">{{ page.date | date_to_string}}</p>
 </div>
 
+
+
+  <div class="entry">
+    {{ content }}	
+  </div>
+
+
 <!-- tag system : only display tag "infrastructure" if there are tags -->
 {% if page.tags != empty %} 
  <div class="tag-icon-image"> 
@@ -22,10 +29,6 @@ layout: default
  </div>
 {%  endif  %}
 
-
-  <div class="entry">
-    {{ content }}	
-  </div>
 
  <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
