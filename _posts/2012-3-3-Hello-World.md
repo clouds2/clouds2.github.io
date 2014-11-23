@@ -1,12 +1,9 @@
 ---
 layout: post
-title: You're up and runningㅎㅎㅎㅎㅎ
+title: You're up and running
 tag: ttag1
 ---
 
-
-
-푸시 테스트입니다. 
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below :point_down:).
 
