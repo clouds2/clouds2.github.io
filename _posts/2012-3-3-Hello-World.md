@@ -1,7 +1,7 @@
 ---
 layout: post
 title: You're up and running
-tag: ttag1 나비 두더쥐 peculiar octopus tax-deductible 안녕-나비 한량
+tag: ttag1 나비 두더쥐 peculiar octopus tax-deductible
 ---
 
 
