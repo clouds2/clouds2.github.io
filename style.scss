@@ -114,6 +114,26 @@ strong, b {
   font-weight: bold;
 }
 
+
+/* normalize.css Clearfix */
+.cf {
+  *zoom: 1
+}
+
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both
+}
+
+img.inline.pull-right {
+  margin-left: 1em;
+}
+
+
 img {
   max-width: 100%;
 }

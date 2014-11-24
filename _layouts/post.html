@@ -10,36 +10,25 @@ layout: default
   <p class="meta">{{ page.date | date_to_string}}</p>
 </div>
 
+<!-- tag system : only display tag "infrastructure" if there are tags -->
+{% if page.tags != empty %} 
+ <div class="tag-icon-image"> 
+    <!-- iterate through tags in the current page using page.tags variable -->
+    {%  for tag in page.tags  %} 
+       <ul class="tags post-tags cf">
+       <!-- link to appropriate tag anchor in tags.html -->
+       <a href="/tags#tag_{{ tag }}">{{ tag }}</a>
+      </ul> 
+    {%  endfor %}
+ </div>
+{%  endif  %}
 
 
   <div class="entry">
     {{ content }}	
-
   </div>
 
- 
-
-<!-- tag system : only display tag "infrastructure" if there are tags -->
-{% if page.tags != empty %} 
- <div>
-    <!-- iterate through tags in the current page using page.tags variable -->
-   <ul class="tags post-tags cf">
-   <li>Tagged:</li>
-    {% for tag in page.tags %}
-    <li><a href="/search/?tags={{ tag }}">{{ tag | downcase }}</a></li>
-    {% endfor %}
-  </ul>
- </div>
-{%  endif  %}
- 
-
-
-
-
-
  <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-
-
 
   {% include disqus.html disqus_identifier=page.disqus_identifier %}
 </article>
