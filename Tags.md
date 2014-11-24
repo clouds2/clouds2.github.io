@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Tag Index
+permalink: /tags/
 ---
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}

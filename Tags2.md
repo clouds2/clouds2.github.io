@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Tags
-permalink: /tags/
 ---
 
 <!--from http://hamishwillee.github.io/2014/06/06/tags-in-jekyll-without-plugins/ -->
