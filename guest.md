@@ -6,8 +6,8 @@ permalink: /guestbook/
 
 남기고 싶은 말을 자유롭게 써주세요. 
 
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'seoulrain'; // required: replace example with your forum shortname
 
