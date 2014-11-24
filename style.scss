@@ -115,20 +115,6 @@ strong, b {
 }
 
 
-/* normalize.css Clearfix */
-.cf {
-  *zoom: 1
-}
-
-.cf:before, .cf:after {
-  content: "";
-  display: table;
-}
-
-.cf:after {
-  clear: both
-}
-
 img.inline.pull-right {
   margin-left: 1em;
 }
@@ -371,25 +357,24 @@ article h1 {
 /*
 /*****************************************************************************/
 
-/*Tag from https://alexpearce.me*/
+/* Tag icon stuff : http://hamishwillee.github.io/2014/06/06/tags-in-jekyll-without-plugins/
+-------------------------------------------------- */
 
-.tags li {
-float:left; 
-margin: 0;
+.tag-icon-image
+{
+display:block;
+background-image:url('/images/tag_purple.png');
+background-size: 12px;
+background-repeat: no-repeat;
+background-position: left center;
+padding-left:20px;
+} 
+
+.tag-link {
+  display: inline;
+  font-size: 0.8em;
 }
 
-.tags li a {
-padding: 1px 12px 2px 12px;
-color: #bcc5c8;
-}
-
-.tags li a:hover {
-color: #5e6d74;
-}
-
-.post-tags {
-margin: 20px 0 0 0;
-}
 
 
 

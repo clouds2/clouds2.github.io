@@ -11,17 +11,16 @@ layout: default
 </div>
 
 <!-- tag system : only display tag "infrastructure" if there are tags -->
-{% if page.tags != empty %} 
- <div class="tag-icon-image"> 
-    <!-- iterate through tags in the current page using page.tags variable -->
-    {%  for tag in page.tags  %} 
-       <ul class="tags post-tags cf">
-       <!-- link to appropriate tag anchor in tags.html -->
-       <a href="/tags#tag_{{ tag }}">{{ tag }}</a>
-      </ul> 
-    {%  endfor %}
- </div>
-{%  endif  %}
+  {% if page.tags != empty %} 
+	<div class="tag-icon-image"> 
+		{% for tag in page.tags %} 
+		<small>
+		<a href="{{ site.baseurl }}/tag_tags#{{ tag }}&tag={{ tag | uri_escape }}">{{ tag }}</a>
+		</small> 
+		{% endfor %}
+  </div>
+  {% endif %}
+
 
 
   <div class="entry">
