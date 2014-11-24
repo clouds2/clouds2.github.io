@@ -4,7 +4,6 @@ title:
 permalink: /guestbook/
 ---
 방명록입니다. 
-
 <div id="disqus_thread"></div>
 <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
