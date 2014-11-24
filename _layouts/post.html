@@ -22,7 +22,7 @@ layout: default
 	<div class="tag-icon-image"> 
 		{% for tag in page.tags %} 
 		<small>
-		<a href="{{ site.baseurl }}/tags/#{{ tag | uri_escape }}">{{ tag }}</a> &nbsp;
+		<a href="{{ site.baseurl }}/tags/#{{ this_word | cgi_escape }}">{{ tag }}</a> &nbsp;
 		</small> 
 		{% endfor %}
   </div>
