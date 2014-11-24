@@ -298,6 +298,16 @@ nav {
   }
 }
 
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0;
+}
+
+.post pre code {
+  border: none;
+}
+
 .wrapper-footer {
   margin-top: 25px;
   border-top: 1px solid #ddd;
