@@ -18,21 +18,12 @@ layout: default
     {{ content }}	
 	
 	<!-- tag "infrastructure" if there are tags -->
-  {% if page.tags != empty %} 
-	<div class="tag-icon-image"> 
-		{% for tag in page.tags %} 
-		<small>
-		<a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a>
-		</small> 
-		{% endfor %}
-  </div>
-  {% endif %}
-  </div>
-  
+   {% if page.tags != empty %} 
   	<div class="tag-icon-image"> 
    <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags/#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %} &bull; {% endunless %}{% endfor %}</span>
      </div>
-
+  {% endif %}
+  </div>
  <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
   {% include disqus.html disqus_identifier=page.disqus_identifier %}
