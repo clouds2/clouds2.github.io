@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Guestbook
+title: 
 permalink: /guestbook/
 ---
+방명록입니다. 
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
