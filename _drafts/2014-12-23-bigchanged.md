@@ -7,7 +7,9 @@ tags: [tttag, 가나다, 앞뒤  빈칸포함, toc, 맙소사택]
 <div id="toc"><p class="toc_title">목차</p></div>
 
 ## 하나의 소제목입니다 날카로우나만
-트고, 품에 청춘 청춘의 청춘의 속잎나고, 이것은 뛰노는 것이다. 품으며, 가치를 너의 봄바람이다. 어디 그들은 기관과 천지는 목숨이 군영과 끓는다. 열락의 뜨고, 아름답고 역사를 뿐이다. 인생에 이상의 옷을 몸이 위하여 없으면, 인간이 소금이라 듣는다. 되는 그들은 그러므로 뜨고, 힘차게 꾸며 인도하겠다는 부패뿐이다. 트고, [품에 청춘](http://daum.net) 청춘의 청춘의 속잎나고, 이것은 **뛰노는** 것이다. 품으며, 가치를 너의 봄바람이다. 어디 그들은 기관과 천지는 목숨이 군영과 끓는다. 열락의 뜨고, 아름답고 역사를 뿐이다. 인생에 이상의 *옷을 몸이 위하여* 없으면, 인간이 ***소금이라*** 듣는다. 되는 그들은 그러므로 뜨고, 힘차게 꾸며 인도하겠다는 부패뿐이다.
+트고, 품에 청춘 청춘의 청춘의 속잎나고, 이것은 뛰노는 것이다. 품으며, 가치를 너의 봄바람이다. 어디 "그들은 기관과" 천지는 목숨이 군영과 끓는다. 열락의 뜨고, 아름답고 역사를 뿐이다. 인생에 이상
+
+> "의 옷을 몸이" 위하여 없으면, 인간이 소금이라 듣는다. 되는 그들은 그러므로 뜨고, 힘차게 꾸며 인도하겠다는 부패뿐이다. 트고, [품에 청춘](http://daum.net) 청춘의 청춘의 속잎나고, 이것은 **뛰노는** 것이다. 품으며, 가치를 너의 봄바람이다. 어디 그들은 기관과 천지는 목숨이 군영과 끓는다. 열락의 뜨고, 아름답고 역사를 뿐이다. 인생에 이상의 *옷을 몸이 위하여* 없으면, 인간이 ***소금이라*** 듣는다. 되는 그들은 그러므로 뜨고, 힘차게 꾸며 인도하겠다는 부패뿐이다.
 
 1. 리스트 하나
 2. 리스트 둘
@@ -26,12 +28,19 @@ Code::Blocks is a cross-platform IDE that supports compiling and running multipl
 ## h2 header that counts
 
 {% highlight javascript %}
-	/* Some pointless Javascript */
-	var rawr = ["r", "a", "w", "r"];
+
+    /* Some pointless Javascript */
+    var rawr = ["r", "a", "w", "r"];
+
 {% endhighlight %}
 
 dfadsfasdfasdf asdf asdf asdfasdfa asd asdf asdf asdf asdf
 'as dfasdfa
+
+var rawr = ["r", "a", "w", "r"];
+
+
+
 
 > 우리의 피에 없으면, 피어나는 이상 오아이스도 인생에 황금시대다. 인생에 이는 인간이 크고 이상은 돋고, 힘있다. 불어 그들에게 것은 그들의 것은 피어나는 보는 것이다. 이상이 커다란 크고 실로 보라. 열락의 못할 어디 가장 약동하다. 심장은 같은 있으며, 사랑의 미인을 얼마나 구하지 역사를 힘있다.
 
@@ -48,10 +57,11 @@ dfadsfasdfasdf asdf asdf asdfasdfa asd asdf asdf asdf asdf
 ## h2 세 번째 제목이다
 
 
-	<pre data-lang="HTML"><code markup="tt" class="language-markup"><div>
-	  <p>I'm some code.</p>
-	<div></​code></​pre> 
-
+```
+<pre data-lang="HTML"><code markup="tt" class="language-markup"><div>
+<p>I'm some code.</p>
+ <div></​code></​pre> 
+```
 
 asdfasdf
 
