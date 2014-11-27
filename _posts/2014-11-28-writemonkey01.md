@@ -7,6 +7,7 @@ tags: [라이트몽키, 글쓰기, PC, 리뷰]
 
 ![](http://farm6.staticflickr.com/5441/9864566383_c980f0d7ac_o.png)
 
+<div id="toc"><p class="toc_title">목차</p></div>
 
 ## 왜 플레인텍스트인가?
 
