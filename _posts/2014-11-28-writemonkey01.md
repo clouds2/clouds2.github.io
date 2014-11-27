@@ -51,7 +51,7 @@ WriteMonkey 프로그램은 글쓰기 프로그램입니다. 위도우에서 쓸
 
 프로그램은 무료입니다. 설치는 [WriteMonkey 홈페이지](http://writemonkey.com/download.php#latest) 다운로드 메뉴에서 할 수 있어요.
 
-stable(안정) 버전과 preview(새로운 기능 시험해보는) 버전이 있는데, 한글 사용자의 경우 문제가 있을 수 있으니 stable 버전을 권해드립니다. 2013년 9월 현재 안정화 버전은 2.4017까지 나왔고요. 바로 다운로드 하시려면 여기 [다운로드](https://dl.dropbox.com/u/1037987/wm24017.zip)를 클릭!!!
+stable(안정) 버전과 preview(새로운 기능 시험해보는) 버전이 있는데, 한글 사용자의 경우 문제가 있을 수 있으니 stable 버전을 권해드립니다. 2014년 11월말 현재 안정화 버전은 2.703입니다. 바로 다운로드 하시려면 여기 [다운로드(wm2703.zip)](http://writemonkey.com/__files/wm2703.zip) 클릭!!!
 
 ![](http://farm4.staticflickr.com/3753/9864468855_cd975f745d_o.png)
  
