@@ -5,7 +5,7 @@ tags: [라이트몽키, 글쓰기, PC, 리뷰]
 ---
 
 
-![](http://farm6.staticflickr.com/5441/9864566383_c980f0d7ac_o.png)
+![](https://lh5.googleusercontent.com/-6Hcx_haBCsA/VHfPTAttSdI/AAAAAAABTJY/p70wnq7coA0/s0/writemonkey.jpg)
 
 <div id="toc"><p class="toc_title">목차</p></div>
 
