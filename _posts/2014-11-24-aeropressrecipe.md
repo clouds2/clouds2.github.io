@@ -4,7 +4,7 @@ title: 에어로프레스 레시피 모음
 tags: [커피, 에어로프레스]
 ---
 
-<div id="toc"><p class="toc_title">목차</p></div>
+<div id="toc"><p class="toc_title"></p></div>
 
 ![에어로프레스](https://farm6.staticflickr.com/5578/15048790120_bc716d5c39_o.jpg)
 
