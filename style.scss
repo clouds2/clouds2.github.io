@@ -567,6 +567,10 @@ div#toc ul {
   line-height: 1.2em;
   margin: .5em;
 }
+
+.toc_title:before{content:'목차'}
+
+
 div#toc ul li ul,div#toc1 ul li ul,.mobile div#toc1 ul li ul {
   margin-bottom: .75em;
 }
