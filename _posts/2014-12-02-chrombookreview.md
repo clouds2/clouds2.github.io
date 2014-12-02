@@ -1,6 +1,12 @@
-## 크롬북 사용 소감 - Acer C720 
+---
+layout: post
+title:  크롬북 사용 소감 - Acer C720 
+tags: [크롬북, 리뷰] 
+---
 
-![](https://lh3.googleusercontent.com/-577Aw47ELAk/VFLNqIAAcEI/AAAAAAABRf8/w8VBXRxU5wU/s500/519ScbVGJ0L._SY450_.jpg)
+<div id="toc"><p class="toc_title"></p></div>
+
+
 
 
 <div id="toc"><p class="toc_title"></p></div>
@@ -15,6 +21,9 @@
 리퍼비시 버전으로 에이서 크롬북을 구매했는데 149.99 달러에 배송료는 2만 원 넘지 않았네요. 200달러 미만이라 세금은 없었습니다. 총 17만 원 정도 지불. 만약 새 제품으로 사면 199.99 달러에 배송비 더하면 됩니다.
 
 구입한 제품의 모델명은 Acer C720. 16GB 내부 저장공간 + 2GB 램. 2013년에 출시했는데 2014년에 나온 삼성 크롬북2보다 오히려 이 녀석이 속도가 빠릿하다고 합니다. 
+
+
+![](https://lh3.googleusercontent.com/-577Aw47ELAk/VFLNqIAAcEI/AAAAAAABRf8/w8VBXRxU5wU/s500/519ScbVGJ0L._SY450_.jpg)
 
 
 ## 크롬북이 뭐에요?
