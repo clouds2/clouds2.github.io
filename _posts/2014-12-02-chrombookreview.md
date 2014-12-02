@@ -4,10 +4,6 @@ title:  크롬북 사용 소감 - Acer C720
 tags: [크롬북, 리뷰] 
 ---
 
-<div id="toc"><p class="toc_title"></p></div>
-
-
-
 
 <div id="toc"><p class="toc_title"></p></div>
 
@@ -23,8 +19,6 @@ tags: [크롬북, 리뷰]
 구입한 제품의 모델명은 Acer C720. 16GB 내부 저장공간 + 2GB 램. 2013년에 출시했는데 2014년에 나온 삼성 크롬북2보다 오히려 이 녀석이 속도가 빠릿하다고 합니다. 
 
 
-![](https://lh3.googleusercontent.com/-577Aw47ELAk/VFLNqIAAcEI/AAAAAAABRf8/w8VBXRxU5wU/s500/519ScbVGJ0L._SY450_.jpg)
-
 
 ## 크롬북이 뭐에요?
 
@@ -36,6 +30,8 @@ tags: [크롬북, 리뷰]
 
 주로 [coffee님](http://coffee.pe.kr/88)과 [coralsea님](http://coralsea.tistory.com/105)의 리뷰를 참고하여 저도 같은 질문을 던져보았습니다. 
 
+
+![](https://lh3.googleusercontent.com/-577Aw47ELAk/VFLNqIAAcEI/AAAAAAABRf8/w8VBXRxU5wU/s500/519ScbVGJ0L._SY450_.jpg)
 
 ## 가볍고, 휴대성 좋고, 사용이 간편한 크롬북?
 
