@@ -309,7 +309,7 @@ The Verge 리뷰에 의하면 별로 추천 안 한다고. 일단 디자인은 �
 
 - [Any Files to PDF](https://chrome.google.com/webstore/detail/any-files-to-pdf/aohmoiambblghgnjellkbaonpchicebe): 워드, 엑셀, 파워포인트 PDF로 먼저 변환한 후에 크롬북에서 보려고 할 때. 이미지 파일도 지원. 
 
-[
+
 
 
 ### 문서/파일 관리
