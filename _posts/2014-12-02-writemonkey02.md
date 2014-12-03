@@ -1,8 +1,7 @@
 ---
 layout: post
 title: WriteMonkey 리뷰 02. 보관소와 포커스 기능 이용해서 효율적으로 글쓰기
-tags: [라이트몽키, 글쓰기, PC, 리뷰]
-published: true
+tags: [Writemonkey, Writing, Review]
 ---
 
 <div id="toc"><p class="toc_title"></p></div>

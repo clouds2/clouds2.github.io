@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WriteMonkey 리뷰 01. 프로그램 설치와 필수 설정
-tags: [라이트몽키, 글쓰기, PC, 리뷰]
+tags: [Writemonkey, Writing, Review]
 ---
 
 
