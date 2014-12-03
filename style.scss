@@ -449,6 +449,20 @@ padding-left:20px;
 
 
 
+/* scroll */
+.scrollup {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 8%;
+    right: 10%;
+    background: #222;
+    background: url("http://chaeg.co.kr/images/templatemo_arrow0.png")no-repeat;
+	opacity:0.8;
+}
+
+
+
 /*****************************************************************************/
 /*
 /* Syntax Highlights
