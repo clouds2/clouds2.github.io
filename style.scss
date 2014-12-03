@@ -452,12 +452,9 @@ padding-left:20px;
 /* scrollToTop Button */
 
 .scrollToTop{
-	width:100px; 
-	height:130px;
-	padding:10px; 
-	text-align:center; 
-	background: whiteSmoke;
-	font-weight: bold;
+	width:55px; 
+	height:55px;		
+	background: none;
 	color: #444;
 	text-decoration: none;
 	position:fixed;
@@ -466,9 +463,6 @@ padding-left:20px;
 	display:none;
 	background: url('/images/arrow_top.png') no-repeat 0px 20px;
 	opacity:0.8;
-}
-.scrollToTop:hover{
-	text-decoration:none;
 }
 
 
