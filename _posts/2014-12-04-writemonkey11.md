@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WriteMonkey 리뷰 11. 하단 정보표시, 인쇄 설정, replacement 기능 등
-tags: [Writemonkey, Writing, Review] 
+tags: [Writemonkey]
 ---
 
 <div id="toc"><p class="toc_title"></p></div>

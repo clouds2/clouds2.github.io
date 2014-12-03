@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WriteMonkey 리뷰 06. 색상과 폰트 고급설정과 타자기 소리 듣기
-tags: [Writemonkey, Writing, Review] 
+tags: [Writemonkey]
 ---
 
 <div id="toc"><p class="toc_title"></p></div>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 에어로프레스 레시피 모음
-tags: [Coffee, Aeropress]
+tags: [Coffee]
 ---
 
 <div id="toc"><p class="toc_title"></p></div>

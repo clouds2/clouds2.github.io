@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WriteMonkey 리뷰 08. 코르크보드 플러그인(wm2.5버전)
-tags: [Writemonkey, Writing, Review] 
+tags: [Writemonkey]
 ---
 
 <div id="toc"><p class="toc_title"></p></div>

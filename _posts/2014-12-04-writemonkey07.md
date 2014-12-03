@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WriteMonkey 리뷰 07. 배경음 설정과 플로우 기능
-tags: [Writemonkey, Writing, Review] 
+tags: [Writemonkey]
 ---
 
 <div id="toc"><p class="toc_title"></p></div>

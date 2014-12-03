@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WriteMonkey 리뷰 04. 점프 기능으로 파일, 소제목, 북마크, 코멘트 이동
-tags: [Writemonkey, Writing, Review] 
+tags: [Writemonkey]
 ---
 
 <div id="toc"><p class="toc_title"></p></div>

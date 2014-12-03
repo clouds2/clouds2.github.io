@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WriteMonkey 리뷰 09. 기타 추천 플러그인
-tags: [Writemonkey, Writing, Review] 
+tags: [Writemonkey]
 ---
 
 <div id="toc"><p class="toc_title"></p></div>

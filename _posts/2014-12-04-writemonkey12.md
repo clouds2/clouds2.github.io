@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WriteMonkey 리뷰 12. 유용한 팁 모음
-tags: [Writemonkey, Writing, Review] 
+tags: [Writemonkey]
 ---
 
 <div id="toc"><p class="toc_title"></p></div>

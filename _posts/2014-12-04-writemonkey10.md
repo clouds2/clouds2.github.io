@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WriteMonkey 리뷰 10. txt파일 저장과 동기화 세팅
-tags: [Writemonkey, Writing, Review] 
+tags: [Writemonkey]
 ---
 
 <div id="toc"><p class="toc_title"></p></div>

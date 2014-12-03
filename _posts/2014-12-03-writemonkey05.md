@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WriteMonkey 리뷰 05. 마크업 문법 익히기+ 블로그 포스팅
-tags: [Writemonkey, Writing, Review] 
+tags: [Writemonkey]
 ---
 
 <div id="toc"><p class="toc_title"></p></div>

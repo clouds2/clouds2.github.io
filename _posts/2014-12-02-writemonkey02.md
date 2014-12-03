@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WriteMonkey 리뷰 02. 보관소와 포커스 기능 이용해서 효율적으로 글쓰기
-tags: [Writemonkey, Writing, Review]
+tags: [Writemonkey]
 ---
 
 <div id="toc"><p class="toc_title"></p></div>

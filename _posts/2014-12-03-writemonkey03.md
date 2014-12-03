@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WriteMonkey 리뷰 03. 목표치 설정과 프로필 관리
-tags: [Writemonkey, Writing, Review] 
+tags: [Writemonkey]
 ---
 
 <div id="toc"><p class="toc_title"></p></div>
