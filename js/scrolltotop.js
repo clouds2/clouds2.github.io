@@ -2,7 +2,7 @@ $(document).ready(function(){
 	
 	//Check to see if the window is top if not then display button
 	$(window).scroll(function(){
-		if ($(this).scrollTop() > 2000) {
+		if ($(this).scrollTop() > 400) {
 			$('.scrollToTop').fadeIn();
 		} else {
 			$('.scrollToTop').fadeOut();
