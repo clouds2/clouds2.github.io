@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  크롬북 사용 소감 - Acer C720 
-tags: [크롬북, 리뷰] 
+tags: [Chromebook, Review] 
 ---
 
 
