@@ -44,9 +44,9 @@ WriteMonkey에서 F1을 누르면 각종 단축키가 뜨는데 이 때 오른�
 ### 제목 단계 구분
 이미 전 강좌에서 실습한 내용입니다만, 각 소제목(Headings)은 가장 간단하게 `#`(샵) 기호로 정의합니다. 엔터Enter 치고 맨 앞 줄에서, `#`이 한 개면 가장 큰 단위의 제목, ## 두 개면 그 다음 단계의 제목... 이런 식으로 레벨을 부여할 수 있습니다. 
 
-> <font size=18pt><strong>\#첫 단계</strong></font>
-> <font size=16pt><strong>\##두 번째 단계</strong></font>
-> <font size=14pt><strong>\### 세 번째 단계</strong></font>
+> <font size=12em><strong>\#첫 단계</strong></font>
+> <font size=6em><strong>\##두 번째 단계</strong></font>
+> <font size=4em><strong>\### 세 번째 단계</strong></font>
 
 
 
