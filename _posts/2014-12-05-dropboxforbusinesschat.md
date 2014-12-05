@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 직원과 채팅 - Dropbox for Business
+title: 직원과 채팅 후기 - Dropbox for Business
 tags: [Dropbox] 
 ---
 
