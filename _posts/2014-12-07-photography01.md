@@ -7,8 +7,7 @@ tags: [Photography]
 > 사진 전문가의 강의가 아닙니다. 사진을 찍으며 드는 생각을 하나씩 정리한 노트입니다. 사진을 좋아하는 친구의 사진 노트를 엿본다고 생각해주세요. - 서울비
 
 ![](https://farm8.staticflickr.com/7569/15778116048_b915fe9ce0.jpg)   
-나다니엘 페인, “Babe Ruth Retires No. 3″ (1948년 6월 13일)   
-페인은 이 사진으로 1949년 퓰리처상을 수상한다.
+*나다니엘 페인, “Babe Ruth Retires No. 3″ (1948년 6월 13일). 페인은 이 사진으로 1949년 퓰리처상을 수상한다.*
 
 
 <div id="toc"><p class="toc_title"></p></div>
