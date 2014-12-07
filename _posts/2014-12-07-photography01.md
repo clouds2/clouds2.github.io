@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 사진 노트 1: 베이브 루스의 뒷모습
+title: 사진 노트 1. 베이브 루스의 뒷모습
 tags: [Photography] 
 ---
 
