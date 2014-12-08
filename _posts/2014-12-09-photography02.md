@@ -7,7 +7,7 @@ tags: [Photography]
 > 사진 전문가의 강의가 아닙니다. 사진을 찍으며 드는 생각을 하나씩 정리한 노트입니다. 사진을 좋아하는 친구의 사진 노트를 엿본다고 생각해주세요. - 서울비
 
 ![](https://farm8.staticflickr.com/7498/15977940095_3133be0df3.jpg)   
-*전몽각 사진집 [윤미네집] 수록 사진*
+*△전몽각 사진집 [윤미네집] 수록 사진*
 
 
 <div id="toc"><p class="toc_title"></p></div>
@@ -36,7 +36,7 @@ tags: [Photography]
 ## 성실한 관찰이 돋보이는 작품들
 
 ![](https://farm8.staticflickr.com/7495/15790600288_07bdd6d720.jpg)   
-*매일 수만 명의 방문자가 찾는 [다카페일기 블로그](http://dacafe.petit.cc/). 가족의 평범한 일상을 부지런하고 재치있는 시선으로 그리고 있다. 그중 가장 재미있는 건 ‘오늘의 있을 수 없는 일’ 시리즈.*
+*△매일 수만 명의 방문자가 찾는 [다카페일기 블로그](http://dacafe.petit.cc/). 가족의 평범한 일상을 부지런하고 재치있는 시선으로 그리고 있다. 그중 가장 재미있는 건 ‘오늘의 있을 수 없는 일’ 시리즈.*
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/nKnfjdEPLJ0?rel=0" frameborder="0" allowfullscreen></iframe>   
 *△아주 오랫동안, 아이를 기다려 온 과정을 정성 들여 기록한 작품*
