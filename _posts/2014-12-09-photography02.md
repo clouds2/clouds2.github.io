@@ -41,4 +41,4 @@ tags: [Photography]
 <iframe width="560" height="315" src="http://www.youtube.com/embed/nKnfjdEPLJ0?rel=0" frameborder="0" allowfullscreen></iframe>   
 *△아주 오랫동안, 아이를 기다려 온 과정을 정성 들여 기록한 작품*
 
-*(2012년 6월 처음 작성했고, 2014년 1월 [슬로우뉴스](http://slownews.kr/17997)에 게재되었습니다. 2014년 12월 블로그에 다시 올림)*
+*(2012년 6월 처음 작성했고, 2014년 1월 [슬로우뉴스](http://slownews.kr/18254)에 게재되었습니다. 2014년 12월 블로그에 다시 올림)*
