@@ -51,8 +51,7 @@ tags: [iPhone]
 -   [**Fantastical2(구글캘린더 일정 관리)**](http://itunes.apple.com/us/app/fantastical-2-calendars-reminders/id718043190?mt=8) : 주력 캘린더 앱으로 결국 선택. 자연어 입력을 위해서 굳이 영어로 타이핑해야 하나 싶고, [Calendars 5](https://itunes.apple.com/us/app/calendars-5-smart-calendar/id697927927?mt=8)가 더 예쁘다고 생각하지만, Calendars5가 구글캘린더 싱크 오류 뿜어대서 갈아탔습니다. Drafts4에서 액션으로 Fantastical 보낼 때 `/3`과 같이 쓰면 세 번째 달력으로 일정을 넣어주죠. 시간과 내용과 지정 달력까지 한 번에 일정 넣고자 할 때 편합니다. 
 
 
--  [**Unread (RSS 리더) / 무료 / 인앱 있음)**](https://itunes.apple.com/app/id911364254) : 가독성과 사용성이 훌륭한 리더 앱. 초기에 전체글 보기가 지원 안 되는 거 때문에 안 쓰다가 이제 
-[**Reeder 2(RSS 리더) / 4.99달러**](https://itunes.apple.com/us/app/reeder-2/id697846300?mt=8)에서 완전히 갈아탔어요. 확실히 깔끔한 화면과 훌륭한 퍼포먼스이지만, Pocket으로 보내기할 때 Reeder에서 스와입 한 방이면 가능했는데 Unread는 두 번의 탭이 필요하네요. 아쉽습니다. 아직은 왔다갔다~하고 있습니다. 
+-  [**Unread (RSS 리더) / 무료 / 인앱 있음)**](https://itunes.apple.com/app/id911364254) : 가독성과 사용성이 훌륭한 리더 앱. 초기에 전체글 보기가 지원 안 되는 거 때문에 안 쓰다가 이제 [**Reeder 2(RSS 리더) / 4.99달러**](https://itunes.apple.com/us/app/reeder-2/id697846300?mt=8)에서 완전히 갈아탔어요. Unread의 깔끔한 화면과 훌륭한 퍼포먼스는 매력적이지만, Pocket으로 보내기할 때 Reeder에서 스와입 한 방이면 가능했는데 Unread는 두 번의 탭이 필요하네요. 아쉽습니다. 아직은 왔다갔다~하고 있습니다. 
 
 
 -   [**Dropbox(드롭박스) / 무료**](https://itunes.apple.com/en/app/dropbox/id327630330?mt=8) : 당연히 1순위 클라우드. 최근 업데이트를 통해 워드/엑셀 등 MS 앱과의 연계를 통해 바로 간단한 문서 내용 수정이 가능해졌습니다. 또 파일/폴더 이름 바꾸기와 이동도 이제 됩니다. 
