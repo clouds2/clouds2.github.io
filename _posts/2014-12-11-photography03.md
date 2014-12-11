@@ -52,7 +52,7 @@ tags: [Photography]
 ## 피사체에게 다가가서 찍은 작품들
 
 
-![](https://lh4.googleusercontent.com/-OK-bo5yOs-8/VImdZWl939I/AAAAAAABTO0/MY5WFYmQH5E/s0/bb.jpg)   
+![4](https://lh4.googleusercontent.com/-OK-bo5yOs-8/VImdZWl939I/AAAAAAABTO0/MY5WFYmQH5E/s0/bb.jpg)   
 △ 조디 캅이 베트남 난민캠프에서 만난 아이. 그녀는 아이와 눈이 마주친 순간 삶에 대한 의지를 느꼈다고 한다.
 
 ![](https://lh5.googleusercontent.com/-aE80oc5G4_M/VImdgVrGNCI/AAAAAAABTO8/n-hDuR8AfBQ/s0/ccc.jpg)   
