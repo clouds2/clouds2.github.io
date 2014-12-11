@@ -59,7 +59,7 @@ tags: [Photography]
 ![](https://lh5.googleusercontent.com/-aE80oc5G4_M/VImdgVrGNCI/AAAAAAABTO8/n-hDuR8AfBQ/s0/ccc.jpg)   
 △ 엘리어트 어윗(Eliot Erwitt)의 유머 넘치는 작품. 다른 방식으로 주제에 가까이 가기.
 
-- 도전 과제 좋아하는 얼굴을 화면 가득, 여백 없이 담아 보자.
+도전 과제: 좋아하는 얼굴을 화면 가득, 여백 없이 담아 보자.
 
 
 
