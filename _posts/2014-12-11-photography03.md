@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 사진 노트 1-3: 슬픔과 기쁨의 눈높이에서
+title: 사진 노트 1-3. 슬픔과 기쁨의 눈높이에서
 tags: [Photography] 
 ---
 
