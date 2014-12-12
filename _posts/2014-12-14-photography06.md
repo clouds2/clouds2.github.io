@@ -16,7 +16,7 @@ tags: [Photography]
 *△ © Ryan Mcginley*
 
 > 라이언 맥긴리 프로젝트 "청춘, 우리는 괜찮아(The Kids Are Alright):   
-[보러 가기](http://phhfineart.com/exhibition_RyanMcginley.html)
+>[보러 가기](http://phhfineart.com/exhibition_RyanMcginley.html)
 
 우리가 라이언에게 배울 수 있는 것은 세계적 사진가가 되기 위해 꼭 바바라 런던의 [사진학 강의] 초반에 나오는 카메라의 구조, 조리개의 생김새, 노출을 결정하는 원리를 먼저 공부할 필요는 없다는 것입니다. 그런 정식 교과서들은 원리를 설명해줄 수는 있어도, 시선을 연습하게 도와주지는 않으니까요.
 
