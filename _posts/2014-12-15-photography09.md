@@ -12,23 +12,29 @@ tags: [Photography]
 
 물리적으로 광각렌즈와 망원렌즈에서 생기는 효과는 사다리를 생각해보면 쉽습니다. 자, 여기 사다리가 하나 있습니다.
 
+![](https://lh3.googleusercontent.com/-zJDIk6Mvq_s/VI5GncITNAI/AAAAAAABTpc/zlSNsqI4CWg/s0/01.jpg)
 8737601303_4330819996_m
 
 벽에 사다리를 세워두고 멀리멀리 뒤로 가서 사다리를 보면, 사다리의 가로줄 간격이 일정해 보입니다. 왜 일정하냐? 원래 일정하게 만들었으니까! 그러나 이제 사다리를 오르려고 가까이 다가가서 하늘 쪽으로 사다리를 올려다보면 이상한 일이 일어나지요.
 
+![](https://lh4.googleusercontent.com/-hLW0twh2fLQ/VI5GrtHbE_I/AAAAAAABTpk/GU2D-hOu7lo/s0/02.jpg)
 8738719672_bf769161dc
 
 분명 간격이 일정했는데 하늘 쪽으로 갈수록 간격이 좁아지는 게 아니겠어요? 사실 이렇게 되어야 우리의 눈은 똑같은 간격으로 서 있는 사물을 앞 방향에서 볼 때 원근감을 갖게 되죠. 광각은 가까이 있는 것은 더 가깝게 먼 것은 멀게. 원래 직사각형이어야 하는데, 가운데 공간이 사다리꼴에 가깝지요? 이것이 광각의 특징입니다.
 
+![](https://lh4.googleusercontent.com/-6kwyJ-z1X8w/VI5GtqaXcmI/AAAAAAABTps/FMBwojDCzP0/s0/03.jpg)
 003
 망원은 앞뒤 간격이 압축됩니다. (화질이 안 좋아 죄송)
 
+![](https://lh5.googleusercontent.com/-Z5H3pL54yjA/VI5Gwk00nAI/AAAAAAABTp0/wWFS5snrRhI/s0/04.jpg)
 004
 여기서 사진에 똑같이 나오도록 사람을 사진에 넣어 찍으면, 그러니까 사다리 아래쪽에 앉혀 놓고 광각으로 찍은 사진과 사람 보고 사다리 위로 올라가라고 해놓고 망원렌즈로 당겨 찍은 사진이 있다고 할 때 말이지요. 사진에 나온 사람은 크기는 같은데 배경이 넓게 넓게 퍼져있습니다.
 
+![](https://lh6.googleusercontent.com/-JYvqMhuBVzw/VI5G7bye0zI/AAAAAAABTp8/EZn-pxevAPo/s0/05.jpg)
 005
 사진에 나온 사람 크기는 같은데 배경에 더 멀리 있는 녀석들까지 답답하게 앞뒤로 밀착해서 들어와 있습니다.
 
+![](https://lh3.googleusercontent.com/-aCkggChKHxo/VI5G9dnv5MI/AAAAAAABTqE/2rmnZoWC9Uk/s0/06.jpg)
 996
 
 ## 광각렌즈와 망원렌즈를 응용해보자
@@ -37,6 +43,7 @@ tags: [Photography]
 
 가까이 있으면 광각렌즈, 멀리 있으면 망원렌즈입니다. 그러나 멀리 물러날 수 없을 때 어쩔 수 없이 광각렌즈를, 가까이 갈 수 없을 때 어쩔 수 없이 망원렌즈를 선택해야 할 때도 있습니다.
 
+![](https://lh4.googleusercontent.com/-9OBgPieH1fg/VI5HAHf5SaI/AAAAAAABTqM/lHl7n5xGdps/s0/07.jpg)
 lion
 사자를 망원렌즈로 찍었습니다. 왜? 무서우니까!
 보통 인물의 초상사진, 증명사진 등은 표준초점거리보다 더 먼 거리에서 찍습니다. 약간 카메라가 떨어진 느낌이어야 표정도 자연스러워지고 덜 부담스럽거든요.
@@ -45,9 +52,11 @@ lion
 
 아까 사다리의 예에서 알 수 있듯이 똑같이 줄을 서 있어도 멀리서 당겨 찍으면 더 갑갑하게 달라붙어서 줄 서 있는 느낌을 줍니다. 그러므로 같은 간격도 좀 더 떨어뜨려 놓고 싶으면 광각렌즈를 쓰고, 같은 간격도 더 답답하게 붙여놓고 싶으면 망원렌즈를 씁니다.
 
+![](https://lh6.googleusercontent.com/-_FJ0md_wOD4/VI5HGlupmJI/AAAAAAABTqU/aU6vIzHXnyk/s0/08.jpg)
 873
 안 그래도 답답하게 사람들이 걷고 있는 거리, 망원렌즈로 멀리 있는 사람들을 담았더니 더 답답하게 앞뒤로 꾸역꾸역 뭉쳐 보이는군요. (사진: © nial­lkennedy)
 
+![](https://lh5.googleusercontent.com/-zjuWGI8alG0/VI5HLb_dirI/AAAAAAABTqc/_-cyGlLy23k/s0/09.jpg)
 사실 이렇게 코가 크지는 않을 텐데 저 멀리 있는 배경은 더 멀리 밀려나고 가까이 있는 코만 강조되었습니다. (사진: © don j schulte @ oxherder arts )
 
 ### 사다리 예를 좀 응용해서 거리 차를 이용하는 방법
@@ -56,10 +65,13 @@ lion
 
 렌즈의 초점거리가 광각렌즈에서 망원렌즈로 달려갈 때에도 가까이에 있는 사물은 확확 커지지만, 멀리 있는 사물은 거의 그대로이기 때문에 풍경 사진에서도 망원렌즈를 잘 이용하면 멀리 있는 사물의 근경에 손쉽게 커다란 물체를 놓을 수 있어요.
 
+
+![](https://lh3.googleusercontent.com/-kStxFXtc9xw/VI5HSMBMMiI/AAAAAAABTqk/3b_HqaJau0c/s0/10.jpg)
 출처: http://digital-photography-school.com/
 digital-photography-school.com
 위 사진에서 근경에 커다란 바위를 압도적으로 배치하고 원경의 커다란 산을 배경으로 처리했습니다. 만약 저 앞까지 걸어가서 바위도 나오고 산도 나오게 광각렌즈로 사진을 찍으면 어떻게 됐을까요?
 
+![](https://lh5.googleusercontent.com/-XAehXXDKbjA/VI5HTxKvhBI/AAAAAAABTqs/7Tz9VdYUxoI/s0/11.jpg)
 http://digital-photography-school.com/
 digital-photography-school.com
 바위가 나오기는 했는데 그다지 두드러져 보이지 않게 되었습니다. 두 사진에서 같은 크기의 두 개의 바위가 모두 등장하도록 사진 프레임을 잘랐다는 데 주목하세요. 또 한 가지는 바닥에 있는 풀이 듬성듬성 나 있잖아요. 망원렌즈로 찍었을 때보다 풀 사이가 덜 압축되게 되면서(사다리의 예를 생각해보세요), 뭔가 정리되지 않고 어수선한 느낌을 주게 되어버렸네요.
@@ -70,6 +82,7 @@ digital-photography-school.com
 
 ## 다가가는 것
 
+![](https://lh3.googleusercontent.com/-Y3oMdnrUQu4/VI5HYsMO3BI/AAAAAAABTq0/Jzr20TpxKp0/s0/12.jpg)
 다이안 아버스, 장난감 수류탄을 든 소년, New York City (1962)
 다이안 아버스, 장난감 수류탄을 든 소년, New York City (1962)
 다이안 아버스­(Dainae Arbus, 1923-1971)는 1958년 한 여류사진작가로부터 다음과 같은 말을 듣습니다.
@@ -80,6 +93,7 @@ digital-photography-school.com
 
 이 이야기를 듣고 그녀는 패션 사진을 때려치우고, 세상이 저주의 대상으로 여기는 기형인들, 난쟁이, 거인, 문신한 흉측한 사람들을 찾아가 [기형인] 시리즈를 찍죠. 부잣집 딸로 태어나 패션 사진에서 떠나 60년대 사회의 어두운 그늘에 카메라를 들이대던 그녀는 자신의 사진을 상업적으로 이용하는 것에 괴로워하며, 마약, 이혼 등을 통해 자신의 삶마저 망가뜨리다가 1971년 자살합니다. 어쩌면 그녀는 자기 스승이 주문했던 대로 “삶의 무게가 사진의 무게가 되기 위해” 사진을 찍었을지도 모르지요.
 
+![](https://lh4.googleusercontent.com/-5Duo2crGT9g/VI5HbFRF1NI/AAAAAAABTq8/LJ3nibq-HGY/s0/13.jpg)
 다이안 아버스, Eddie Carmel, 거인증 있는 한 유대인, 부모님과 함께 그의 집에서, New York, 1970
 다이안 아버스, 에디 카멜(Eddie Carmel), 거인증 있는 한 유대인, 부모님과 함께 그의 집에서, New York, 1970
 쌍안경으로 세상을 본 적이 있나요? 그것은 무언가를 확대해주어서 그것에 다가갈 수 있도록 해주지만, 동시에 당장 내 앞에 있는 내 삶을 잊게 하는 마약과도 같은 시선입니다. 기본적으로 도둑촬영의 시선인 그것은, 내 삶의 무게와 피사체의 무게가 같지 않다면 함부로 사용해서는 안 될 무기이기도 한 것이지요.
@@ -92,8 +106,12 @@ digital-photography-school.com
 
 광각 이야기를 하기에 앞서 이 사람이 생각난 이유는, 물러선 시선을 갖는다는 것, 와이드-앵글을 보여준다는 것은 언제나 상대적이기 때문입니다. 모든 사람들이 무언가에 골몰하고 있을 때, 한발 뒤로 물러난 세상을 보여주는 것은 렌즈의 초점거리에 상관없이 ‘더 넓은 시야를 제공한다’는 점에서 와이드-앵글의 미학입니다.
 
+![](https://lh3.googleusercontent.com/-ufKmzR6S5IQ/VI5HeKLII5I/AAAAAAABTrE/YpOvfTY041g/s0/15.jpg)
 마크 리부, 북베트남, 1969 
 어린 소녀까지도 나라를 지키는 데 동원/참여하는 북베트남의 현실은, 당시 냉전상황에서는 하늘을 날아가서 훔쳐보지 않는 이상 볼 수 없는 장면이었습니다. 그런 점에서 새롭고, 유일하며, 넓은 시야를 제공합니다. (사진: 마크 리부, 북베트남, 1969)
+
+
+![](https://lh5.googleusercontent.com/-ckoukaiOlJ8/VI5HgEVWvsI/AAAAAAABTrM/N5enzTBBHT8/s0/16.jpg)
 Elliott Erwitt, Khrushchev and Nixon, Moscow, 1959
 “너희는 가난하잖아”라며 모스크바 박람회장에서 소련 서기장에게 삿대질하는 닉슨의 사진입니다. 카메라의 초점거리 자체는 근접해 있지만, 이 한심한 광경을 한참 떨어져서 지켜보는 사진가의 떫은 시선이 느껴지지 않나요? (사진: 엘리엇 어윗, “흐르쇼프와 닉슨”, 모스코바, 1959)
 초광각의 렌즈 자체도 중요하지만, 저 중요한 건 상황과 역사를 전체적으로 조망하는 사진가의 의식이 아닐까 합니다. 그런 시선 없이 함부로 광각렌즈를 들고 아무거나 찍으면 정말 사진이 지저분해질 뿐입니다.
