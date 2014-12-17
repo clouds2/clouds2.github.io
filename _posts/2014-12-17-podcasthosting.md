@@ -13,6 +13,8 @@ tags: [podcast]
 우리나라 팟캐스트 순위를 웹사이트에서 쉽게 구경하고 직접 청취할 수 있는 [팟빵](http://www.podbbang.com/)을 기준으로, 인기 팟캐스트 목록에 있는 방송들은 어떤 방식으로, 어떤 서비스를 통해서 방송 파일을 올리고 서비스하고 있는지 살펴보았습니다. 
 
 
+<div id="toc"><p class="toc_title"></p></div>
+
 ## [쎈호스팅의 팟호스팅 서비스](http://www.ssenhosting.com/hosting/pod)
 
 - 예) 이박사와 이작가의 이이제이 : [http://pod.ssenhosting.com/rss/vamp666.xml](http://pod.ssenhosting.com/rss/vamp666.xml)
@@ -98,4 +100,4 @@ tags: [podcast]
 
 물론! 어떤 서비스를 사용하든지 원본 백업은 필수입니다.
 
- (2014년 1월 처음 작성. 12월 오타와 번문 약간 수정 후 재발행)
+ (2014년 1월 처음 작성. 12월 오타와 번문 약간 수정 후 재발행
