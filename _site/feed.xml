@@ -3,8 +3,8 @@
   <channel>
     <title>cloudshand</title>
     <description>구름손여행기</description>
-    <link></link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://clouds2.github.io</link>
+    <atom:link href="http://clouds2.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Test Markdown Readme</title>
@@ -258,215 +258,8 @@ Packages/MarkdownEditing/MultiMarkdown.sublime-settings
 &lt;p&gt;MarkdownEditing is released under the &lt;a href=&quot;http://www.opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 19 Dec 2014 00:00:00 +0900</pubDate>
-        <link>/2014/12/19/test-markdown-readme-%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB/</link>
-        <guid isPermaLink="true">/2014/12/19/test-markdown-readme-%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB/</guid>
-      </item>
-    
-      <item>
-        <title>Introduction</title>
-        <description>&lt;div id=&quot;toc&quot;&gt;&lt;p class=&quot;toc_title&quot;&gt;&lt;/p&gt;&lt;/div&gt;
-
-&lt;p&gt;This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.&lt;br&gt;
-Directly following the intro we&amp;#39;ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
-
-&lt;h2&gt;Overview&lt;/h2&gt;
-
-&lt;h3&gt;What is Jekyll?&lt;/h3&gt;
-
-&lt;p&gt;Jekyll is a parsing engine bundled as a ruby gem used to build static websites from&lt;br&gt;
-dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as &amp;quot;a simple, blog aware, static site generator&amp;quot;.&lt;/p&gt;
-
-&lt;h3&gt;Examples&lt;/h3&gt;
-
-&lt;p&gt;This website is created with Jekyll. &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Sites&quot;&gt;Other Jekyll websites&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;What does Jekyll Do?&lt;/h3&gt;
-
-&lt;p&gt;Jekyll is a ruby gem you install on your local system.&lt;br&gt;
-Once there you can call &lt;code&gt;jekyll --server&lt;/code&gt; on a directory and provided that directory&lt;br&gt;
-is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files,&lt;br&gt;
-compute categories, tags, permalinks, and construct your pages from layout templates and partials.&lt;/p&gt;
-
-&lt;p&gt;Once parsed, Jekyll stores the result in a self-contained static &lt;code&gt;_site&lt;/code&gt; folder.&lt;br&gt;
-The intention here is that you can serve all contents in this folder statically from a plain static web-server.&lt;/p&gt;
-
-&lt;p&gt;You can think of Jekyll as a normalish dynamic blog but rather than parsing content, templates, and tags&lt;br&gt;
-on each request, Jekyll does this once &lt;em&gt;beforehand&lt;/em&gt; and caches the &lt;em&gt;entire website&lt;/em&gt; in a folder for serving statically.&lt;/p&gt;
-
-&lt;h3&gt;Jekyll is Not Blogging Software&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Jekyll is a parsing engine.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Jekyll does not come with any content nor does it have any templates or design elements.&lt;br&gt;
-This is a common source of confusion when getting started.&lt;br&gt;
-Jekyll does not come with anything you actually use or see on your website - you have to make it.&lt;/p&gt;
-
-&lt;h3&gt;Why Should I Care?&lt;/h3&gt;
-
-&lt;p&gt;Jekyll is very minimalistic and very efficient.&lt;br&gt;
-The most important thing to realize about Jekyll is that it creates a static representation of your website requiring only a static web-server.&lt;br&gt;
-Traditional dynamic blogs like Wordpress require a database and server-side code.&lt;br&gt;
-Heavily trafficked dynamic blogs must employ a caching layer that ultimately performs the same job Jekyll sets out to do; serve static content.&lt;/p&gt;
-
-&lt;p&gt;Therefore if you like to keep things simple and you prefer the command-line over an admin panel UI then give Jekyll a try.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Developers like Jekyll because we can write content like we write code:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ability to write content in markdown or textile in your favorite text-editor.&lt;/li&gt;
-&lt;li&gt;Ability to write and preview your content via localhost.&lt;/li&gt;
-&lt;li&gt;No internet connection required.&lt;/li&gt;
-&lt;li&gt;Ability to publish via git.&lt;/li&gt;
-&lt;li&gt;Ability to host your blog on a static web-server.&lt;/li&gt;
-&lt;li&gt;Ability to host freely on GitHub Pages.&lt;/li&gt;
-&lt;li&gt;No database required.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1&gt;How Jekyll Works&lt;/h1&gt;
-
-&lt;p&gt;The following is a complete but concise outline of exactly how Jekyll works.&lt;/p&gt;
-
-&lt;p&gt;Be aware that core concepts are introduced in rapid succession without code examples.&lt;br&gt;
-This information is not intended to specifically teach you how to do anything, rather it&lt;br&gt;
-is intended to give you the &lt;em&gt;full picture&lt;/em&gt; relative to what is going on in Jekyll-world.&lt;/p&gt;
-
-&lt;p&gt;Learning these core concepts should help you avoid common frustrations and ultimately&lt;br&gt;
-help you better understand the code examples contained throughout Jekyll-Bootstrap.&lt;/p&gt;
-
-&lt;h2&gt;Initial Setup&lt;/h2&gt;
-
-&lt;p&gt;After &lt;a href=&quot;/index.html#start-now&quot;&gt;installing jekyll&lt;/a&gt; you&amp;#39;ll need to format your website directory in a way jekyll expects.&lt;br&gt;
-Jekyll-bootstrap conveniently provides the base directory format.&lt;/p&gt;
-
-&lt;h3&gt;The Jekyll Application Base Format&lt;/h3&gt;
-
-&lt;p&gt;Jekyll expects your website directory to be laid out like so:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;.
-|-- _config.yml
-|-- _includes
-|-- _layouts
-|   |-- default.html
-|   |-- post.html
-|-- _posts
-|   |-- 2011-10-25-open-source-is-good.markdown
-|   |-- 2011-04-26-hello-world.markdown
-|-- _site
-|-- index.html
-|-- assets
-    |-- css
-        |-- style.css
-    |-- javascripts
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;_config.yml&lt;/strong&gt;&lt;br&gt;
-Stores configuration data.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;_includes&lt;/strong&gt;&lt;br&gt;
-This folder is for partial views.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;_layouts&lt;/strong&gt;&lt;br&gt;
-This folder is for the main templates your content will be inserted into.&lt;br&gt;
-You can have different layouts for different pages or page sections.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;_posts&lt;/strong&gt;&lt;br&gt;
-This folder contains your dynamic content/posts.&lt;br&gt;
-the naming format is required to be &lt;code&gt;@YEAR-MONTH-DATE-title.MARKUP@&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;_site&lt;/strong&gt;&lt;br&gt;
-This is where the generated site will be placed once Jekyll is done transforming it.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;assets&lt;/strong&gt;&lt;br&gt;
-This folder is not part of the standard jekyll structure.&lt;br&gt;
-The assets folder represents &lt;em&gt;any generic&lt;/em&gt; folder you happen to create in your root directory.&lt;br&gt;
-Directories and files not properly formatted for jekyll will be left untouched for you to serve normally.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;(read more: &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Usage&quot;&gt;https://github.com/mojombo/jekyll/wiki/Usage&lt;/a&gt;)&lt;/p&gt;
-
-&lt;h3&gt;Jekyll Configuration&lt;/h3&gt;
-
-&lt;p&gt;Jekyll supports various configuration options that are fully outlined here:&lt;br&gt;
-(&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Configuration&quot;&gt;https://github.com/mojombo/jekyll/wiki/Configuration&lt;/a&gt;)&lt;/p&gt;
-
-&lt;h2&gt;Content in Jekyll&lt;/h2&gt;
-
-&lt;p&gt;Content in Jekyll is either a post or a page.&lt;br&gt;
-These content &amp;quot;objects&amp;quot; get inserted into one or more templates to build the final output for its respective static-page.&lt;/p&gt;
-
-&lt;h3&gt;Posts and Pages&lt;/h3&gt;
-
-&lt;p&gt;Both posts and pages should be written in markdown, textile, or HTML and may also contain Liquid templating syntax.&lt;br&gt;
-Both posts and pages can have meta-data assigned on a per-page basis such as title, url path, as well as arbitrary custom meta-data.&lt;/p&gt;
-
-&lt;h3&gt;Working With Posts&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Creating a Post&lt;/strong&gt;&lt;br&gt;
-Posts are created by properly formatting a file and placing it the &lt;code&gt;_posts&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Formatting&lt;/strong&gt;&lt;br&gt;
-A post must have a valid filename in the form &lt;code&gt;YEAR-MONTH-DATE-title.MARKUP&lt;/code&gt; and be placed in the &lt;code&gt;_posts&lt;/code&gt; directory.&lt;br&gt;
-If the data format is invalid Jekyll will not recognize the file as a post. The date and title are automatically parsed from the filename of the post file.&lt;br&gt;
-Additionally, each file must have &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter&quot;&gt;YAML Front-Matter&lt;/a&gt; prepended to its content.&lt;br&gt;
-YAML Front-Matter is a valid YAML syntax specifying meta-data for the given file.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Order&lt;/strong&gt;&lt;br&gt;
-Ordering is an important part of Jekyll but it is hard to specify a custom ordering strategy.&lt;br&gt;
-Only reverse chronological and chronological ordering is supported in Jekyll.&lt;/p&gt;
-
-&lt;p&gt;Since the date is hard-coded into the filename format, to change the order, you must change the dates in the filenames.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags&lt;/strong&gt;&lt;br&gt;
-Posts can have tags associated with them as part of their meta-data.&lt;br&gt;
-Tags may be placed on posts by providing them in the post&amp;#39;s YAML front matter.&lt;br&gt;
-You have access to the post-specific tags in the templates. These tags also get added to the sitewide collection.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Categories&lt;/strong&gt;&lt;br&gt;
-Posts may be categorized by providing one or more categories in the YAML front matter.&lt;br&gt;
-Categories offer more significance over tags in that they can be reflected in the URL path to the given post.&lt;br&gt;
-Note categories in Jekyll work in a specific way.&lt;br&gt;
-If you define more than one category you are defining a category hierarchy &amp;quot;set&amp;quot;.&lt;br&gt;
-Example:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;---
-title :  Hello World
-categories : [lessons, beginner]
----
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This defines the category hierarchy &amp;quot;lessons/beginner&amp;quot;. Note this is &lt;em&gt;one category&lt;/em&gt; node in Jekyll.&lt;br&gt;
-You won&amp;#39;t find &amp;quot;lessons&amp;quot; and &amp;quot;beginner&amp;quot; as two separate categories unless you define them elsewhere as singular categories.&lt;/p&gt;
-
-&lt;h3&gt;Working With Pages&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Creating a Page&lt;/strong&gt;&lt;br&gt;
-Pages are created by properly formatting a file and placing it anywhere in the root directory or subdirectories that do &lt;em&gt;not&lt;/em&gt; start with an underscore.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Formatting&lt;/strong&gt;&lt;br&gt;
-In order to register as a Jekyll page the file must contain &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter&quot;&gt;YAML Front-Matter&lt;/a&gt;.&lt;br&gt;
-Registering a page means 1) that Jekyll will process the page and 2) that the page object will be available in the &lt;code&gt;site.pages&lt;/code&gt; array for inclusion into your templates.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Categories and Tags&lt;/strong&gt;&lt;br&gt;
-Pages do not compute categories nor tags so defining them will have no effect.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sub-Directories&lt;/strong&gt;&lt;br&gt;
-If pages are defined in sub-directories, the path to the page will be reflected in the url.&lt;br&gt;
-Example:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;.
-|-- people
-    |-- bob
-        |-- essay.html
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This page will be available at &lt;code&gt;http://yourdomain.com/people/bob/essay.html&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Recommended Pages&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;index.html&lt;/strong&gt;
-You will always want to define the root index.html page as this will display on your root URL.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;404.html&lt;/strong&gt;
-Create a root 404.html page and GitHub Pages will serve it as your 404 response.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;sitemap.html&lt;/strong&gt;
-Generating a sitemap is good practice for SEO.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;about.html&lt;/strong&gt;
-A nice about page is easy to do and gives the human perspective to your website.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 19 Dec 2014 00:00:00 +0900</pubDate>
-        <link>/lessons/2014/12/19/introduction-%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB/</link>
-        <guid isPermaLink="true">/lessons/2014/12/19/introduction-%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB/</guid>
+        <link>http://clouds2.github.io/2014/12/19/markdownreadme/</link>
+        <guid isPermaLink="true">http://clouds2.github.io/2014/12/19/markdownreadme/</guid>
       </item>
     
       <item>
@@ -570,56 +363,8 @@ A nice about page is easy to do and gives the human perspective to your website.
 &lt;p&gt;(2014년 1월 처음 작성. 12월 오타와 번문 약간 수정 후 재발행&lt;/p&gt;
 </description>
         <pubDate>Wed, 17 Dec 2014 00:00:00 +0900</pubDate>
-        <link>/2014/12/17/podcasthosting/</link>
-        <guid isPermaLink="true">/2014/12/17/podcasthosting/</guid>
-      </item>
-    
-      <item>
-        <title>포스트 테스트 - 아시반다까뿟따</title>
-        <description>&lt;p&gt;아시반다까뿟따 경(S42.6)&lt;br&gt;
-&amp;quot;부처님이시여,  어떤 바라문들은 물속에 들어가고 불을 지피며 헌공하는 자들입니다. 그들은 죽어서 임종한 사람들을 천상으로 인도한다고 합니다. 그런데 부처님께서는 바라문들처럼 그런 능력이 있습니까? 죽은 사람들을 천상에 나게 하실 수 있습니까?&amp;quot;&lt;br&gt;
-&amp;quot;촌장이여. 이를 어떻게 생각하는가? 어떤 사람이 살생을 하고 도둑질을 하고 사음을 하고 거짓말과 이간질, 욕설과 잡담을 하고, 간탐하고 마음이 악의로 가득 차있고, 그릇된 견해를 가지고 있다고 하자. 그런데 많은 사람들이 그에게 모여들어 기도를 올리고 찬팅을 하고 합장한 채 그의 주의를 돌며 예배하면서 &amp;#39;이 사람이 죽은 뒤 천상에 태어나게 하소서.&amp;#39;라고 기도했다고 하자. 그러면 그 사람이 죽어서 천상에 태어나겠는가?&amp;quot;&lt;br&gt;
-&amp;quot;그렇지 않습니다, 부처님이시여.&amp;quot;&lt;br&gt;
-&amp;quot;촌장이여, 예를 들어, 어떤 사람이 크고 넓은 바윗덩이를 깊은 물속으로 던졌다고 하자. 그런데 많은 사람들이 그곳에 모여들어 기도를 올리고 찬팅을 하고 합장한 채 주의를 돌며 예배를 올리면서 &amp;#39; 큰 바윗덩이여 떠올라라. 떠올라라. 큰 바윗덩이여, 뭍으로 나와라.&amp;quot;라고 기도했다고 하자.  그러면 그로 인해서 그 바윗덩이가 떠올라 뭍으로 나오겠는가?&amp;quot;&lt;br&gt;
-&amp;quot;그렇지 않습니다. 부처님이시여.&amp;quot;&lt;br&gt;
-&amp;quot;촌장이여, 그와 같이 살생을 하고, 도둑질을 하고, 사음을 하고, 거짓말과 이간질, 욕설과 잡담을 하고, 간탐을 하고, 사견을 갖고, 악의가 가득 찬 사람은 아무리 사람들이 기도를 올리며 천상에 태어나기를 기원해도 그는 지옥에 태어날 것이다.&amp;quot;&lt;br&gt;
-&amp;quot;촌장이여, 이를 어떻게 생각하는가? 어떤 사람이 살생을 하지 않고, 도둑질을 하지 않고, 사음을 하지 않고, 거짓말고 이간질, 욕설과 잡담을 하지 않고, 간탐하지 않고, 마음에 악의가 없고, 바른 견해를 가지고 있다고 하자. 그런데 많은 사람들이 모여들어 기도를 올리고 찬팅을 하고, 합장하고서 주의를 돌며 예배하면서, &amp;#39;이 사람이 죽은 뒤 지옥에 태어나게 하소서.&amp;#39;라고 기도했다고 하자. 그러면 그로 인해서 그 사람이 죽어서 지옥에 태어나겠는가?&amp;quot;&lt;br&gt;
-&amp;quot;그렇지 않습니다. 부처님이시여.&amp;quot;&lt;br&gt;
-&amp;quot;촌장이여, 예를 들어 어떤 사람이 버터나 참기름 단지를 가지고 깊은 물속에 들어가서 그것을 깼다고 하자. 그러면 단지의 조각은 가라앉고 버터나 참기름은 물 위로 뜰 것이다. 그런데 많은 사람들이 모여들어 그 주의를 돌면서 &amp;#39;버터와 참기름이여, 내려가거라. 버터와 참기름이여, 내려가거라.&amp;#39;라고 기도 했다고 하자. 그러면 그로 인해서 버터와 참기름이 떠 내려가겠는가?&amp;quot;&lt;br&gt;
-&amp;quot;그렇지 않습니다. 부처님이시여.&amp;quot;&lt;br&gt;
-&amp;quot;촌장이여, 그와 같이 살생을 하지 않고, 도둑질을 하지 않고, 사음을 하지 않고, 거짓말과 이간질, 욕설과 잡담을 하지 않고, 간탐하지 않고, 마음에 악의가 없고, 바른 견해를 지닌 사람은 아무리 사람들이 기도를 하면서 지옥에 떨어지라고 저주를 내려도 그는 천상에 태어날 것이다.&amp;quot;&lt;/p&gt;
-
-&lt;p&gt;붓다는 죽은 자들을 위해 기도하고 제사를 지내고 천도제를 지내는 것은 아무 쓸모가 없다고 한다.&lt;br&gt;
-붓다 당신도 좋은 세상에 태어나게 해줄 수 있는 능력이 없다고 한다.&lt;br&gt;
-그런데도 부처님의 위신력을 빌어서 죽은 자를 천도한다고 요령을 흔들고 주문을 외우다니!&lt;br&gt;
-뭐하는 짓들인가?&lt;/p&gt;
-
-&lt;p&gt;그러면 살아있는 사람들이 죽은 자들을 위해서 아무것도 해줄 수 없는 것일까?&lt;br&gt;
-앙굿따라 니까야에는 살아있는 사람들이 죽은 자들을 위해 공덕을 회향해 줄 수 있는 경우가 있다고 한다.&lt;br&gt;
-그것도 모든 죽은 자들에게 해줄 수 있는 것이 아니고 아귀계에 떨어진 자들에게만.....&lt;/p&gt;
-
-&lt;p&gt;자눗소니 경(A10.177)&lt;br&gt;
-부처님이시여, 우리 바라문들은 &amp;#39;이 보시가 죽은 친지와 조상들에게 공덕이 되기를... 이 보시를 죽은 친지와 조살들이 즐기시기를...&amp;#39;하면서 보시를 합니다. 그러면 이 보시가 죽은 친지와 조상들에게 공덕이 되겠습니까?&amp;quot;&lt;br&gt;
-&amp;quot;바라문이여, 공덕이 되는 경우가 있고 되지 않는 경우가 있다.&amp;quot;&lt;br&gt;
-&amp;quot;부처님이시여, 어떤 곳이 되는 경우이고, 어떤 곳이 되지 않는 경우입니까?&amp;quot;&lt;br&gt;
-&amp;quot;바라문이여, 지옥에 태어난 중생들은 거기 지옥 중생들이 먹는 음식으로 생명을 보존하고 거기서 머문다. 거기에 머무는 자에게는 공덕이 되지 않는다. 축생으로 태어난 중생들은 거기 축생계의 중생들이 먹는 음식으로 생명을 보존하고 그곳에 머문다. 거기에 머무는 자에게도 공덕이 되지 않는다. 인간으로 태어난 중생들은 거기 인간들이 먹는 음식으로 목숨을 보존하고 머문다. 기기에 머무는 자에게도 공덕이 되지 않는다. 천상에 태어난 중생들은 거기 신들이 먹는 음식으로 생명을 보존하고 그곳에 머문다. 거기에 머무는 자에게도 공덕이 되지 않는다. 아귀계에 태어난 중생들은 거기 아귀계의 중생들이 먹는 음식으로 생명을 보존하고 그곳에 머문다. 또는 그의 친구나 동료나 친지와 후손들이 여기서 보시를 하고 그 공덕을 회향하여 공급해준 것으로 거기서 생명을 보존하고 그곳에 머문다. 바라문이여, 아귀계에 태어난 중생들에게는 공덕이 된다.&amp;quot;&lt;br&gt;
-&amp;quot;부처님이시여, 만일 그 친지와 조상이 그곳에 태어나지 않았다면 누가 그 보시를 즐깁니까?&amp;quot;&lt;br&gt;
-&amp;quot;바라문이여, 그곳에 태어난 다른 친지와 조상들이 그 보시를 즐긴다.&amp;quot;&lt;br&gt;
-부처님이시여. 만일 그 친지와 조상이 그곳에 없고, 다른 친지와 조상도 그곳에 없다면 누가 그 보시를 즐깁니까?&amp;quot;&lt;br&gt;
-&amp;quot;바라문이여, 기나긴 윤회 속에서 그의 친지와 조상이 그곳에 없다는 것은 이치에 맞지 않다. 그렇다고 해도 보시자에게 결실이 없지 않다. 그것은 자신이 축생이나 인간이나 천상에 태어났을 때에 본인이 그 선업을 받는다.&amp;quot;&lt;/p&gt;
-
-&lt;p&gt;그러므로 만일 죽은 자에게 뭔가를 해주고 싶다면 보시를 하고 그 공덕을 회향하면 된다.&lt;br&gt;
-&amp;quot;이 공덕이 죽은 누구에게 돌아가기를! 또는 이 보시 공덕이 조상들에게 돌아가기를!&amp;quot;&lt;br&gt;
-그러면 만일 그 죽은 자가 아귀계에 떨어졌다면 그 공덕이 그에게 좋은 음식이 될 것이다.&lt;/p&gt;
-
-&lt;p&gt;하지만 효력이 불확실한 기도와 제사는 하지 않는 것이 좋다.&lt;br&gt;
-제물을 차리고 기도를 올리고 목탁을 두드리며 염불을 한다고 죽은 자가 좋은 곳으로 간다고 생각하지 않는다.&lt;br&gt;
-차라리 제사를 지낼 그 돈으로 불쌍한 사람들이나 수행자들에게 보시를 하고 그 공덕을 회향하는 것이 좋다.&lt;br&gt;
-이것이 조상들에게 해줄 수 있는 확실한 방법이다.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 17 Dec 2014 00:00:00 +0900</pubDate>
-        <link>/2014/12/17/blog-test-098-%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB/</link>
-        <guid isPermaLink="true">/2014/12/17/blog-test-098-%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB/</guid>
+        <link>http://clouds2.github.io/2014/12/17/podcasthosting/</link>
+        <guid isPermaLink="true">http://clouds2.github.io/2014/12/17/podcasthosting/</guid>
       </item>
     
       <item>
@@ -925,8 +670,8 @@ A nice about page is easy to do and gives the human perspective to your website.
 &lt;p&gt;&lt;em&gt;(2012년 6월 처음 작성했고, 2014년 6월 &lt;a href=&quot;http://slownews.kr/27245&quot;&gt;슬로우뉴스&lt;/a&gt;에 게재되었습니다. 2014년 12월 블로그에 다시 올림)&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Dec 2014 00:00:00 +0900</pubDate>
-        <link>/2014/12/15/photography15/</link>
-        <guid isPermaLink="true">/2014/12/15/photography15/</guid>
+        <link>http://clouds2.github.io/2014/12/15/photography15/</link>
+        <guid isPermaLink="true">http://clouds2.github.io/2014/12/15/photography15/</guid>
       </item>
     
       <item>
@@ -1226,8 +971,8 @@ A nice about page is easy to do and gives the human perspective to your website.
 &lt;p&gt;&lt;em&gt;(2012년 6월 처음 작성했고, 2014년 5월 &lt;a href=&quot;http://slownews.kr/25577&quot;&gt;슬로우뉴스&lt;/a&gt;에 게재되었습니다. 2014년 12월 블로그에 다시 올림)&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Dec 2014 00:00:00 +0900</pubDate>
-        <link>/2014/12/15/photography14/</link>
-        <guid isPermaLink="true">/2014/12/15/photography14/</guid>
+        <link>http://clouds2.github.io/2014/12/15/photography14/</link>
+        <guid isPermaLink="true">http://clouds2.github.io/2014/12/15/photography14/</guid>
       </item>
     
       <item>
@@ -1393,8 +1138,8 @@ A nice about page is easy to do and gives the human perspective to your website.
 &lt;p&gt;&lt;em&gt;(2012년 6월 처음 작성했고, 2014년 5월 &lt;a href=&quot;http://slownews.kr/24892&quot;&gt;슬로우뉴스&lt;/a&gt;에 게재되었습니다. 2014년 12월 블로그에 다시 올림)&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Dec 2014 00:00:00 +0900</pubDate>
-        <link>/2014/12/15/photography13/</link>
-        <guid isPermaLink="true">/2014/12/15/photography13/</guid>
+        <link>http://clouds2.github.io/2014/12/15/photography13/</link>
+        <guid isPermaLink="true">http://clouds2.github.io/2014/12/15/photography13/</guid>
       </item>
     
       <item>
@@ -1537,8 +1282,8 @@ A nice about page is easy to do and gives the human perspective to your website.
 &lt;p&gt;&lt;em&gt;(2012년 6월 처음 작성했고, 2014년 4월 &lt;a href=&quot;http://slownews.kr/23567&quot;&gt;슬로우뉴스&lt;/a&gt;에 게재되었습니다. 2014년 12월 블로그에 다시 올림)&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Dec 2014 00:00:00 +0900</pubDate>
-        <link>/2014/12/15/photography12/</link>
-        <guid isPermaLink="true">/2014/12/15/photography12/</guid>
+        <link>http://clouds2.github.io/2014/12/15/photography12/</link>
+        <guid isPermaLink="true">http://clouds2.github.io/2014/12/15/photography12/</guid>
       </item>
     
       <item>
@@ -1634,8 +1379,8 @@ A nice about page is easy to do and gives the human perspective to your website.
 &lt;p&gt;&lt;em&gt;(2012년 6월 처음 작성했고, 2014년 4월 &lt;a href=&quot;http://slownews.kr/22245&quot;&gt;슬로우뉴스&lt;/a&gt;에 게재되었습니다. 2014년 12월 블로그에 다시 올림)&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Dec 2014 00:00:00 +0900</pubDate>
-        <link>/2014/12/15/photography11/</link>
-        <guid isPermaLink="true">/2014/12/15/photography11/</guid>
+        <link>http://clouds2.github.io/2014/12/15/photography11/</link>
+        <guid isPermaLink="true">http://clouds2.github.io/2014/12/15/photography11/</guid>
       </item>
     
       <item>
@@ -1699,8 +1444,246 @@ A nice about page is easy to do and gives the human perspective to your website.
 &lt;p&gt;&lt;em&gt;(2012년 6월 처음 작성했고, 2014년 3월 &lt;a href=&quot;http://slownews.kr/22245&quot;&gt;슬로우뉴스&lt;/a&gt;에 게재되었습니다. 2014년 12월 블로그에 다시 올림)&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Dec 2014 00:00:00 +0900</pubDate>
-        <link>/2014/12/15/photography10/</link>
-        <guid isPermaLink="true">/2014/12/15/photography10/</guid>
+        <link>http://clouds2.github.io/2014/12/15/photography10/</link>
+        <guid isPermaLink="true">http://clouds2.github.io/2014/12/15/photography10/</guid>
+      </item>
+    
+      <item>
+        <title>사진 노트 2-4. 광각과 망원의 세계</title>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;사진 전문가의 강의가 아닙니다. 사진을 찍으며 드는 생각을 하나씩 정리한 노트입니다. 사진을 좋아하는 친구의 사진 노트를 엿본다고 생각해주세요. - 서울비&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;우리는 카메라를 산 뒤, 표준렌즈에 슬슬 싫증이 느껴지면 렌즈를 추가로 사고 싶어집니다. 이것은 신체적으로는 우리가 무언가를 더 가까이에서 탐구하고 싶은 욕심, 또 가끔은 답답한 시선에서 벗어나서 전체를 조망하고 싶은 마음과 연결되어 있다고 생각해요.&lt;/p&gt;
+
+&lt;div id=&quot;toc&quot;&gt;&lt;p class=&quot;toc_title&quot;&gt;&lt;/p&gt;&lt;/div&gt;
+
+&lt;h2&gt;사다리로 생각해보는 배경 압축&lt;/h2&gt;
+
+&lt;p&gt;물리적으로 광각렌즈와 망원렌즈에서 생기는 효과는 사다리를 생각해보면 쉽습니다. 자, 여기 사다리가 하나 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-zJDIk6Mvq_s/VI5GncITNAI/AAAAAAABTpc/zlSNsqI4CWg/s0/01.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;벽에 사다리를 세워두고 멀리멀리 뒤로 가서 사다리를 보면, 사다리의 가로줄 간격이 일정해 보입니다. 왜 일정하냐? 원래 일정하게 만들었으니까! 그러나 이제 사다리를 오르려고 가까이 다가가서 하늘 쪽으로 사다리를 올려다보면 이상한 일이 일어나지요.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh4.googleusercontent.com/-hLW0twh2fLQ/VI5GrtHbE_I/AAAAAAABTpk/GU2D-hOu7lo/s0/02.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;분명 간격이 일정했는데 하늘 쪽으로 갈수록 간격이 좁아지는 게 아니겠어요? 사실 이렇게 되어야 우리의 눈은 똑같은 간격으로 서 있는 사물을 앞 방향에서 볼 때 원근감을 갖게 되죠. 광각은 가까이 있는 것은 더 가깝게 먼 것은 멀게. 원래 직사각형이어야 하는데, 가운데 공간이 사다리꼴에 가깝지요? 이것이 광각의 특징입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh4.googleusercontent.com/-6kwyJ-z1X8w/VI5GtqaXcmI/AAAAAAABTps/FMBwojDCzP0/s0/03.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;망원은 앞뒤 간격이 압축됩니다. (화질이 안 좋아 죄송)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/-Z5H3pL54yjA/VI5Gwk00nAI/AAAAAAABTp0/wWFS5snrRhI/s0/04.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;여기서 사진에 똑같이 나오도록 사람을 사진에 넣어 찍으면, 그러니까 사다리 아래쪽에 앉혀 놓고 광각으로 찍은 사진과 사람 보고 사다리 위로 올라가라고 해놓고 망원렌즈로 당겨 찍은 사진이 있다고 할 때 말이지요. 사진에 나온 사람은 크기는 같은데 배경이 넓게 넓게 퍼져있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/-JYvqMhuBVzw/VI5G7bye0zI/AAAAAAABTp8/EZn-pxevAPo/s0/05.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;사진에 나온 사람 크기는 같은데 배경에 더 멀리 있는 녀석들까지 답답하게 앞뒤로 밀착해서 들어와 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-aCkggChKHxo/VI5G9dnv5MI/AAAAAAABTqE/2rmnZoWC9Uk/s0/06.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;광각렌즈와 망원렌즈를 응용해보자&lt;/h2&gt;
+
+&lt;h3&gt;단지 초점거리만을 고려할 때&lt;/h3&gt;
+
+&lt;p&gt;가까이 있으면 광각렌즈, 멀리 있으면 망원렌즈입니다. 그러나 멀리 물러날 수 없을 때 어쩔 수 없이 광각렌즈를, 가까이 갈 수 없을 때 어쩔 수 없이 망원렌즈를 선택해야 할 때도 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh4.googleusercontent.com/-9OBgPieH1fg/VI5HAHf5SaI/AAAAAAABTqM/lHl7n5xGdps/s0/07.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;em&gt;△ 사자를 망원렌즈로 찍었습니다. 왜? 무서우니까!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;보통 인물의 초상사진, 증명사진 등은 표준초점거리보다 더 먼 거리에서 찍습니다. 약간 카메라가 떨어진 느낌이어야 표정도 자연스러워지고 덜 부담스럽거든요.&lt;/p&gt;
+
+&lt;h3&gt;초점거리 변화에 따른 배열압축을 고려할 때&lt;/h3&gt;
+
+&lt;p&gt;아까 사다리의 예에서 알 수 있듯이 똑같이 줄을 서 있어도 멀리서 당겨 찍으면 더 갑갑하게 달라붙어서 줄 서 있는 느낌을 줍니다. 그러므로 같은 간격도 좀 더 떨어뜨려 놓고 싶으면 광각렌즈를 쓰고, 같은 간격도 더 답답하게 붙여놓고 싶으면 망원렌즈를 씁니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/-_FJ0md_wOD4/VI5HGlupmJI/AAAAAAABTqU/aU6vIzHXnyk/s0/08.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;△ 안 그래도 답답하게 사람들이 걷고 있는 거리, 망원렌즈로 멀리 있는 사람들을 담았더니 더 답답하게 앞뒤로 꾸역꾸역 뭉쳐 보이는군요. (사진: © &lt;a href=&quot;http://www.flickr.com/photos/niallkennedy/668454536&quot;&gt;nial­lkennedy&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/-zjuWGI8alG0/VI5HLb_dirI/AAAAAAABTqc/_-cyGlLy23k/s0/09.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;△ 사실 이렇게 코가 크지는 않을 텐데 저 멀리 있는 배경은 더 멀리 밀려나고 가까이 있는 코만 강조되었습니다. (사진: © &lt;a href=&quot;http://www.flickr.com/photos/oxherder/4600784532/&quot;&gt;don j schulte @ oxherder arts&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3&gt;사다리 예를 좀 응용해서 거리 차를 이용하는 방법&lt;/h3&gt;
+
+&lt;p&gt;즉, 우리가 자동차를 타고 가다 창밖을 보면 가까이에 있는 나무는 휙휙~ 지나가고 멀리 있는 커다란 산은 잘 안 움직이지요. 즉 가까이에 있는 사물은 내가 움직이면 금방 따라 움직이지만, 멀리 있는 사물은 좀처럼 위치나 크기를 바꾸지 않습니다. 그래서 달은 계속 우리를 따라다니지요.&lt;/p&gt;
+
+&lt;p&gt;렌즈의 초점거리가 광각렌즈에서 망원렌즈로 달려갈 때에도 가까이에 있는 사물은 확확 커지지만, 멀리 있는 사물은 거의 그대로이기 때문에 풍경 사진에서도 망원렌즈를 잘 이용하면 멀리 있는 사물의 근경에 손쉽게 커다란 물체를 놓을 수 있어요.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-kStxFXtc9xw/VI5HSMBMMiI/AAAAAAABTqk/3b_HqaJau0c/s0/10.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;em&gt;△ &lt;a href=&quot;http://digital-photography-school.com/&quot;&gt;digital-photography-school.com&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;위 사진에서 근경에 커다란 바위를 압도적으로 배치하고 원경의 커다란 산을 배경으로 처리했습니다. 만약 저 앞까지 걸어가서 바위도 나오고 산도 나오게 광각렌즈로 사진을 찍으면 어떻게 됐을까요?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/-XAehXXDKbjA/VI5HTxKvhBI/AAAAAAABTqs/7Tz9VdYUxoI/s0/11.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;em&gt;△ &lt;a href=&quot;http://digital-photography-school.com/&quot;&gt;digital-photography-school.com&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;바위가 나오기는 했는데 그다지 두드러져 보이지 않게 되었습니다. 두 사진에서 같은 크기의 두 개의 바위가 모두 등장하도록 사진 프레임을 잘랐다는 데 주목하세요. 또 한 가지는 바닥에 있는 풀이 듬성듬성 나 있잖아요. 망원렌즈로 찍었을 때보다 풀 사이가 덜 압축되게 되면서(사다리의 예를 생각해보세요), 뭔가 정리되지 않고 어수선한 느낌을 주게 되어버렸네요.&lt;/p&gt;
+
+&lt;p&gt;앞 뒤 거리가 압축된다는 사실과 서로 다른 거리에 위치한 두 사물을 가까이서 찍는 것과 멀리서 당겨서 찍는 차이를 잘 이해하면 사진가의 의도에 따라 사뭇 다른 사진을 구성할 수 있을 겁니다. 그 밖에 일반적으로 배경이 뽀얗게 날아가는 효과에는 망원렌즈가 좋지요. 광각렌즈와 망원렌즈에 따른 심도 차이는 다른 강좌에서 더 자세히 다루도록 하고 일단 넘어가겠습니다.&lt;/p&gt;
+
+&lt;p&gt;기계적, 물리적 차이는 이렇습니다. 사실 위대한 사진가들은 그들이 찍고자 하는 주제에 더 다가갈 것인가, 물러서서 전체적으로 볼 것인가를 더욱 깊이 고민했습니다.&lt;/p&gt;
+
+&lt;h2&gt;다가가는 것&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-Y3oMdnrUQu4/VI5HYsMO3BI/AAAAAAABTq0/Jzr20TpxKp0/s0/12.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;em&gt;△ 다이안 아버스, 장난감 수류탄을 든 소년, New York City (1962)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;다이안 아버스­(Dainae Arbus, 1923-1971)는 1958년 한 여류사진작가로부터 다음과 같은 말을 듣습니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“빛은 가장 위대한 정신의 수용체이다. 사진에서의 빛이란 존재를 드러내기 위해 필요한 것이다. 사진은 빛으로 만들어진다. 그렇다면 가서 비추어라. 가서 드러내라. 세상에 가려진 것, 소외된 것, 버림받은 것, 모든 상처 입은 영혼들이 너의 빛을 기다리고 있다.”&lt;br&gt;&lt;br&gt;
+&lt;em&gt;- 진동선, [영화보다 재밌는 사진 이야기], 푸른세상, 225쪽에서 재인용.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;이 이야기를 듣고 그녀는 패션 사진을 때려치우고, 세상이 저주의 대상으로 여기는 기형인들, 난쟁이, 거인, 문신한 흉측한 사람들을 찾아가 [기형인] 시리즈를 찍죠. 부잣집 딸로 태어나 패션 사진에서 떠나 60년대 사회의 어두운 그늘에 카메라를 들이대던 그녀는 자신의 사진을 상업적으로 이용하는 것에 괴로워하며, 마약, 이혼 등을 통해 자신의 삶마저 망가뜨리다가 1971년 자살합니다. 어쩌면 그녀는 자기 스승이 주문했던 대로 “삶의 무게가 사진의 무게가 되기 위해” 사진을 찍었을지도 모르지요.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh4.googleusercontent.com/-5Duo2crGT9g/VI5HbFRF1NI/AAAAAAABTq8/LJ3nibq-HGY/s0/13.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;em&gt;△ 다이안 아버스, Eddie Carmel, 거인증 있는 한 유대인, 부모님과 함께 그의 집에서, New York, 1970&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;쌍안경으로 세상을 본 적이 있나요? 그것은 무언가를 확대해주어서 그것에 다가갈 수 있도록 해주지만, 동시에 당장 내 앞에 있는 내 삶을 잊게 하는 마약과도 같은 시선입니다. 기본적으로 도둑촬영의 시선인 그것은, 내 삶의 무게와 피사체의 무게가 같지 않다면 함부로 사용해서는 안 될 무기이기도 한 것이지요.&lt;/p&gt;
+
+&lt;p&gt;우리는 망원렌즈를 사용하면서 자신에게 물어볼 필요가 있습니다. 저 멀리 있는 것을 이렇게 가까이 가져도 될 자격이 나에게 있는가? 참 감사하다, 미안하다.&lt;/p&gt;
+
+&lt;h2&gt;물러서서 조망하는 것&lt;/h2&gt;
+
+&lt;p&gt;1970년대 베트남전. 대부분 사진작가가 남베트남 미국 전선에서 사진을 찍고 있을 때, 유일하게 자신의 신분을 이용해서 북베트남에 잠입한 사진작가가 있습니다. 그는 바로 프랑스 출신 사진작가 마크 리부(Marc Riboud)죠.&lt;/p&gt;
+
+&lt;p&gt;광각 이야기를 하기에 앞서 이 사람이 생각난 이유는, 물러선 시선을 갖는다는 것, 와이드-앵글을 보여준다는 것은 언제나 상대적이기 때문입니다. 모든 사람들이 무언가에 골몰하고 있을 때, 한발 뒤로 물러난 세상을 보여주는 것은 렌즈의 초점거리에 상관없이 ‘더 넓은 시야를 제공한다’는 점에서 와이드-앵글의 미학입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-ufKmzR6S5IQ/VI5HeKLII5I/AAAAAAABTrE/YpOvfTY041g/s0/15.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;em&gt;△ 어린 소녀까지도 나라를 지키는 데 동원/참여하는 북베트남의 현실은, 당시 냉전상황에서는 하늘을 날아가서 훔쳐보지 않는 이상 볼 수 없는 장면이었습니다. 그런 점에서 새롭고, 유일하며, 넓은 시야를 제공합니다. (사진: 마크 리부, 북베트남, 1969)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/-ckoukaiOlJ8/VI5HgEVWvsI/AAAAAAABTrM/N5enzTBBHT8/s0/16.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;em&gt;△ “너희는 가난하잖아”라며 모스크바 박람회장에서 소련 서기장에게 삿대질하는 닉슨의 사진입니다. 카메라의 초점거리 자체는 근접해 있지만, 이 한심한 광경을 한참 떨어져서 지켜보는 사진가의 떫은 시선이 느껴지지 않나요? (사진: 엘리엇 어윗, “흐르쇼프와 닉슨”, 모스코바, 1959)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;초광각의 렌즈 자체도 중요하지만, 저 중요한 건 상황과 역사를 전체적으로 조망하는 사진가의 의식이 아닐까 합니다. 그런 시선 없이 함부로 광각렌즈를 들고 아무거나 찍으면 정말 사진이 지저분해질 뿐입니다.&lt;/p&gt;
+
+&lt;h2&gt;초점과 화각 강의를 마치며&lt;/h2&gt;
+
+&lt;p&gt;초점거리와 화각 이야기는 오늘로 끝내겠습니다. 다음 강의에서는 ‘노출’에 대해서 다루어보겠습니다.&lt;/p&gt;
+
+&lt;p&gt;강의 순서를 ‘구도 – 화각 – 노출’로 구성한 이유는 순서대로 고민해보는 것이 더 좋은 사진을 만들 것 같아서였어요. 카메라를 사면 자동 모드로 많이 찍어보면서 화면 안에 무엇을 집어넣고 뺄 것인지 고민해보는 것(구도)이 가장 중요한데도 많은 책들을 보면 노출부터 설명하는 경우가 많아요. 자동 모드도 노출은 훌륭하게 계산하니까 그냥 찍기부터 해보는 게 좋을 거 같아요.&lt;/p&gt;
+
+&lt;p&gt;그리고 자동카메라에도 줌 버튼이 있는 경우가 많으니 밀고 당기는 화각이 가장 사진 찍을 때 그다음으로 영향을 미치는 요소인 거 같았고요.&lt;/p&gt;
+
+&lt;p&gt;노출의 개념은 천천히 익혀도 된다고 생각합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(2012년 6월 처음 작성했고, 2014년 3월 &lt;a href=&quot;http://slownews.kr/21557&quot;&gt;슬로우뉴스&lt;/a&gt;에 게재되었습니다. 2014년 12월 블로그에 다시 올림)&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Dec 2014 00:00:00 +0900</pubDate>
+        <link>http://clouds2.github.io/2014/12/15/photography09/</link>
+        <guid isPermaLink="true">http://clouds2.github.io/2014/12/15/photography09/</guid>
+      </item>
+    
+      <item>
+        <title>사진 노트 2-3. 표준화각 - 눈으로 사진찍기</title>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;사진 전문가의 강의가 아닙니다. 사진을 찍으며 드는 생각을 하나씩 정리한 노트입니다. 사진을 좋아하는 친구의 사진 노트를 엿본다고 생각해주세요. - 서울비&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;렌즈의 초점거리를 변화시켜 보겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/-Tk7yPoJ66PE/VIprsO-2pSI/AAAAAAABTd4/n3ZjKxq8Ee4/s0/01.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;em&gt;△ (출처: &lt;a href=&quot;http://www.geog.ucsb.edu/%7Ejeff/115a/lectures/camera_systems.html&quot;&gt;www.geog.ucsb.edu&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;그림에서처럼 초점거리가 늘어나면 렌즈에서 똑같은 거리에 떨어져 있는 동상이 더 큰 상으로 맺히는 것을 볼 수 있습니다. 물론 초점거리가 늘어나면 빛이 덜 꺾이도록 덜 오목하게 렌즈를 다듬어줘야 하겠죠. (근데 그건 렌즈 만드는 회사가 할 걱정이고요.)&lt;/p&gt;
+
+&lt;div id=&quot;toc&quot;&gt;&lt;p class=&quot;toc_title&quot;&gt;&lt;/p&gt;&lt;/div&gt;
+
+&lt;h2&gt;초점거리와 화각의 관계&lt;/h2&gt;
+
+&lt;p&gt;우리는 초점거리가 작아질수록 대체로 사물은 작아져서 화면 안에 구겨져서 들어오고, 초점거리가 늘어날수록 원반 던지는 아저씨의 배꼽에 있는 털이 벽에 크게 나타난다는 걸 알 수 있습니다. (가까이에 사물이 있는 경우에는 두 개의 검은 선이 교차하는 지점이 초점이 맺히는 부분이 아니라는 점에 주의하세요.)&lt;/p&gt;
+
+&lt;p&gt;그런데 초점거리가 늘어나면 사물의 크기만 증가하는 게 아닙니다. 우리가 볼 수 있게 되는 세계의 범위가 좁아지죠. 손가락으로 동그라미를 그려서 안경처럼 눈에 붙이면 아무 문제 없이 세상을 볼 수 있지만, 점점 눈에서 멀어지게 떨어뜨리면 주변을 볼 수 없게 되고 점점 답답해지지요.&lt;/p&gt;
+
+&lt;p&gt;그래서 초점거리가 늘어나면 더 좁은 범위로 세상을 보게 되는 것입니다. 이것을 화각이 좁아진다고 말합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/-qwlTjM9aa5I/VIprul5ZsII/AAAAAAABTeA/sPcQ86JhbYY/s0/02.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;em&gt;△ 이미지 출처 미상&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;우리가 구매하는 렌즈에는 저마다의 초점거리가 표시되어 있습니다. 원반 던지는 아저씨 옆에 있는 배경을 억지로 구겨 넣지도 않고, 또 부담스럽게 아저씨 배꼽 털로 전진하지도 않은…… 사람이 눈으로 보는 모습과 비슷한 범위의 영상을 담아주는 초점거리는 35mm 필름카메라 기준으로 50mm 전후입니다. 그래서 50mm 렌즈를 &lt;strong&gt;표준렌즈&lt;/strong&gt;라고 많이들 부르죠.&lt;/p&gt;
+
+&lt;p&gt;100mm는 두 배 줌이라고 생각해주세요. 화면은 좁아지고 화상은 커집니다. 25mm는 뒤로 더 물러난 느낌이에요. 세상은 넓어지고, 주변을 왜곡시켜 꾸깃꾸깃 화면에 많이 집어넣게 됩니다. 초점거리가 15mm 정도 되면 물고기 눈처럼 화각이 넓어집니다. 서 있는 상태로 정면을 보고 사진을 찍으면 내 발이 나올 정도이지요.&lt;/p&gt;
+
+&lt;p&gt;초점거리가 짧아서 넓게 보이는 렌즈를 “광각렌즈”(와이드앵글)라고 합니다. 초점거리가 길어서 멀리 있는 사물이 가깝게 보이는 렌즈를 “망원렌즈”(텔레포토)라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;보통 행사사진 찍으러 온 사진사들을 보면, 커다란 줌렌즈를 많이 들고들 오시죠. 하지만 많은 전문가가 &lt;strong&gt;처음 사진을 배울 때 표준화각의 단렌즈를 사용해보라&lt;/strong&gt;고 권합니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;단렌즈는 초점거리가 일정한 렌즈, 줌렌즈는 초점거리를 변경할 수 있는 렌즈를 말합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;왜냐하면, 지금 눈으로 보는 세상을 가위로 오려서 사진을 만들지 못하는 사람은 물러나거나 망원경으로 당겨도 그다지 좋은 시선을 담지 못하기 때문이라지요. 여러분의 눈을 깜박이면 찰칵하고 사진이 자동으로 찍힌다고 상상해봅시다. 지금 방 안에서 어느 쪽을 보고 어느 쪽을 시야 바깥으로 제외하고 어떤 높이에서 눈을 “깜박”해서 “찰칵”하실 건가요?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-QUPVMnM3_8w/VIpryIhIHZI/AAAAAAABTeI/BE6GKrq9x6U/s0/03.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;em&gt;△ 캐논 EF 50mm F1.8 II 렌즈&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;함부로 손가락을 까딱거려서 세상을 밀고 당기는 버릇 대신 필요하면 발로 더 가까이 가서 내가 보는 세상을 있는 모습 그대로에서 아름다움을 찾아낼 수 있는 연습만큼 중요한 건 없을 겁니다. 사실 멀어질수록 비행기나 물고기의 시각에 가깝고, 가까이 갈수록 현미경이나 망원경 또는 파파라치의 시각에 가깝죠. 가장 사람다운 시선에서 사진을 담아보세요.&lt;/p&gt;
+
+&lt;h2&gt;과장하지 않은 시선이 우리를 이야기로 초대한다&lt;/h2&gt;
+
+&lt;p&gt;개인적으로는 표준단렌즈는 가장 해석의 여지를 풍부하게 하는 사진이라고 생각해요. 왜냐하면, 누구나 50mm 렌즈를 눈에 하나씩 가지고 세상을 바라보기 때문에, 나름의 이야기들을 찾아내기 편하지요. 광각은 사진가가 더욱 많은 것을 프레임 안으로 초대하여 이야기를 완성해야 하는 부담이 있고, 망원은 주제가 너무 분명한 경우가 많아 상상력을 제한할 경우가 많습니다.&lt;/p&gt;
+
+&lt;p&gt;유네스코와 국제적십자사 사진가로 일해 온 장 모르(Jean Mohr)는 여러 사람들에게 자신의 사진을 보여주면서 사진을 설명해달라고 부탁해보았습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/-PfKqQxmBX8M/VIpr0awVBuI/AAAAAAABTeQ/blNtR-plzbE/s0/04.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;원예사&lt;/strong&gt; : 엄마 노릇 하면서 인형을 자기 아이 취급하는 꼬마 소녀&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;목사&lt;/strong&gt; : 아이들이 이 세상의 잔혹함을 보지 못하도록 해야 하는가? … 인형의 눈을 가리고 있는 손은 치워야 한다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;여학생&lt;/strong&gt; : 인형에 입힐 옷이 없어서 아이가 울고 있다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;은행가&lt;/strong&gt; : 잘 먹고 잘 입고, 그런 애는 좀 버릇이 없다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;여배우&lt;/strong&gt; : 자기가 울고 있는 것을 보이고 싶지 않아 인형의 얼굴을 가리고 있다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;무용교사&lt;/strong&gt; : 아이는 없는 게 없지만 그걸 모른다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;정신과 의사&lt;/strong&gt; : 아이는 인형을 대신해서 울고 있다. 봐서는 안 될 게 있는 것처럼.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;미용사&lt;/strong&gt; : 독일 아이인지 금발이다. 나의 어렸을 때가 생각난다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;공장노동자&lt;/strong&gt; : 아이는 큰 소리로 울고 있다. 누군가 인형을 뺏으려 하기 때문이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;장 모르에 의하면, 사실 이 사진은 아이가 인형을 먹는 시늉을 하면서 인형 가지고 노는 장면이었다고 했겠죠. 그는 “&lt;strong&gt;하나의 영상이 자족적인 경우는 드물다.&lt;/strong&gt;”고 말하면서 “영상은 뜀틀과도 같다.”고 말합니다.&lt;/p&gt;
+
+&lt;p&gt;어떤가요? 낙엽 한 장을 흑백으로 찍어놓고, 제목을 ‘인생의 고독’ 따위로 지어 작품이라고 하지 말고, 50mm 눈을 깜박이며 그저 그 영상 하나에 그저 하나의 설명만으로는 부족해 보이는, 사진다운 사진이라는 생각을 불러일으키는 장면을 찾아, 눈을 “깜박”, 셔터를 “찰칵”하는 연습을 해봅시다.&lt;/p&gt;
+
+&lt;p&gt;세상을 함부로 구기지도, 함부로 확대하지 않고 있는 모습 그대로 바라봐주는 일의 가치가 바로 표준렌즈에 들어있습니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;이름을 주지도, 상표를 붙이지도, 재 보지도, 좋아하지도, 증오하지도, 기억하지도, 탐하지도 마라. 그저 바라만 보아라. 이것이 가장 힘든 일이다. 그러나 그저 보이는 게 찍힐 뿐이다. 카메라는 그저 파인더 안에 보이는 사물의 표면에 반사된 빛을 기록할 뿐이다. 그것이 전부다. 그것의 의미를 경험한다는 것, 몇 초에 불과하더라도 그것을 그저 바라만 보며 그 존재를 느낀다는 것은 쉬운 일이 아니다.&lt;br&gt;
+&lt;em&gt;- 필립 퍼키스(Philip Perkis), [사진강의노트], 안목, 2011년, 19~20쪽.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;인간의 시선에서 구성되는 아름다운 이미지를 잘 표현한 작품들&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/-CNVRCjq64_Q/VIpr2tFUFZI/AAAAAAABTeY/986Wuq_vbLw/s0/05.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;em&gt;△ 앙리 카르티에 브레송, 프랑스 파리, 생 라자르 역 후문, 1932년&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;그의 사진집 제목인 &amp;lt;&lt;a href=&quot;http://www.amazon.com/The-decisive-moment-Henri-Cartier-Bresson/dp/B0006EUM12&quot;&gt;결정적 순간&lt;/a&gt;&amp;gt;으로 유명한 브레송은 절대 연출하지 않고, 찍은 다음에 절대 사진을 잘라내지 않는다는 원칙 하에 라이카 카메라의 단렌즈로 어떤 순간들을 담아냈습니다. 그는 피사체에 부탁하거나 개입하지 않고 있는 모습 그대로를 담아내는 것이 사진의 특징을 잘 드러낸다고 생각했지요.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/-ixtvfwZi5cc/VIpr5mNwhlI/AAAAAAABTeg/O7FWaqV72wQ/s0/06.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;em&gt;△ 앙리 카르티에 브레송, 아르메니아, 1972년&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-G1d2YHZroGQ/VIpr8d7vkRI/AAAAAAABTeo/yYZ3CKwfrmA/s0/07.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+&lt;em&gt;△ 앙리 카르티에 브레송, Simi­ane La Rotaonde, 1969년&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;오늘은 여기까지. 다음 시간에는 광각과 망원의 특성에 대해 다루겠습니다.&lt;/p&gt;
+
+&lt;h2&gt;도전과제: 표준카메라로 사진 찍기 연습&lt;/h2&gt;
+
+&lt;p&gt;도전과제: 필립 퍼키스가 시킨 대로 표준렌즈 카메라를 가슴 부분에 오게 넥스트랩을 조절한 뒤 온종일 돌아다니면서 카메라를 보지 않고 수시로 셔터를 눌러버리자. 집에 와서 결과물을 살펴보고 마음에 드는 사진 고르기.&lt;/p&gt;
+
+&lt;p&gt;과제 실천의 예: 시애틀 출신 사진가 쿠퍼 씨. 홈페이지는 &lt;a href=&quot;http://www.photographercat.com/&quot;&gt;여기&lt;/a&gt;, 페이스북은 &lt;a href=&quot;https://www.facebook.com/photographercat&quot;&gt;여기&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/-AdLWw42j8VA/VIpsEEKT8iI/AAAAAAABTew/sw1oZc2b-Q4/s0/08.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;em&gt;△ 고양이 사진작가 쿠퍼 씨.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(2012년 6월 처음 작성했고, 2014년 3월 &lt;a href=&quot;http://slownews.kr/20892&quot;&gt;슬로우뉴스&lt;/a&gt;에 게재되었습니다. 2014년 12월 블로그에 다시 올림)&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 14 Dec 2014 00:00:00 +0900</pubDate>
+        <link>http://clouds2.github.io/2014/12/14/photography08/</link>
+        <guid isPermaLink="true">http://clouds2.github.io/2014/12/14/photography08/</guid>
       </item>
     
   </channel>

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <title>Test Markdown Readme – cloudshand – 구름손여행기</title>
+
+    <meta name="author" content="cloudshand" />
+    <meta name="description" content="구름손여행기">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="/js/instantclick.min.js" data-no-instant></script>	
+    <script data-no-instant>InstantClick.init();</script>
+	
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="cloudshand - 구름손여행기" href="http://clouds2.github.io/rss.xml" />
+<!-- knlee December 20, 2014
+    <link rel="alternate" type="application/rss+xml" title="cloudshand - 구름손여행기" href="http://feeds.feedburner.com/seoulrain/" />
+-->
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+	
+	
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="" /></a>
+          
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">cloudshand</a></h1>
+            <p class="site-description">구름손여행기</p>
+          </div>
+          
+          <nav>
+
+            <a href="/about/">소개</a>
+            <a href="/archive/">전체글</a>
+            <a href="/tags/">태그</a>
+            <a href="/guestbook/">방명록</a>
+           
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+
+
+ <h1 class="inner">
+    Test Markdown Readme
+  </h1>
+  
+ 
+  
+    <div class="center">
+  <p class="meta">19 Dec 2014</p>
+</div>
+
+
+  <div class="entry">
+    <div id="toc"><p class="toc_title"></p></div>
+
+<h1>MarkdownEditing</h1>
+
+<p>Markdown plugin for Sublime Text. Provides a decent Markdown color scheme (light and dark) with more <strong>robust</strong> syntax highlighting and useful Markdown editing features for Sublime Text. 3 flavors are supported: Standard Markdown, <strong>GitHub flavored Markdown</strong>, MultiMarkdown.</p>
+
+<p><img src="https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/light.png" alt="MarkdownEditing"></p>
+
+<p><a href="https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/dark.png">Dark</a> and <a href="https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/yellow.png">yellow</a> theme available.</p>
+
+<blockquote>
+<p>Your kind donations will help <a href="https://github.com/maliayas">me</a> pause my daily job and put more serious effort into the development of this plugin for the next 2 milestones (<a href="https://github.com/SublimeText-Markdown/MarkdownEditing/issues?milestone=1&amp;state=open">2.0.5</a> and <a href="https://github.com/SublimeText-Markdown/MarkdownEditing/issues?milestone=2&amp;state=open">2.2.0</a>). When they are completed, donation button will be removed. Thanks.</p>
+
+<p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=W2NXRPD43YSCU&amp;lc=TR&amp;item_name=Ali%20Ayas&amp;item_number=Open%20Source&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" alt="[paypal]" /></a></p>
+</blockquote>
+
+<h2>Overview</h2>
+
+<ul>
+<li><a href="#features">Features</a></li>
+<li><a href="#key-bindings">Key Bindings</a></li>
+<li><a href="#gfm-specific-features">GFM Specific Features</a></li>
+<li><a href="#commands-for-command-palette">Commands for Command Palette</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#configuration">Configuration</a></li>
+<li><a href="#tips">Tips</a></li>
+<li><a href="#similar-plugins">Similar Plugins</a></li>
+<li><a href="#known-bugs">Known Bugs</a></li>
+<li><a href="#contributing">Contributing</a></li>
+<li><a href="#credits">Credits</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+
+<h2>Features</h2>
+
+<ul>
+<li>Asterisks and underscores are autopaired and will wrap selected text
+
+<ul>
+<li>If you start an empty pair and hit backspace, both elements are deleted</li>
+<li>If you start an empty pair and hit space, the right element is deleted</li>
+</ul></li>
+<li>Backticks are paired</li>
+<li>At the end of a list item, pressing <kbd>Enter</kbd> will automatically insert the new list item bullet.
+
+<ul>
+<li>Pressing <kbd>Tab</kbd> on the blank list item will indent it and switch the list bullet to another one (Order is <code>*</code>, <code>-</code>, <code>+</code> in a cycle).</li>
+<li>Pressing <kbd>Shift</kbd> <kbd>Tab</kbd> on the blank list item will unindent it in the same way as above.</li>
+<li>Sequential <kbd>Tab</kbd> s or <kbd>Shift</kbd> <kbd>Tab</kbd> s are supported.</li>
+<li>You can disable automatic bullet switching or choose which bullets to be used, in your settings file.</li>
+<li>If a list item contains a <a href="https://help.github.com/articles/github-flavored-markdown">GFM task</a>, pressing <kbd>Enter</kbd> at the end of the line will continue with a new blank task.</li>
+</ul></li>
+<li>At the end of a blockquote line, pressing <kbd>Enter</kbd> will automatically extend blockquote.</li>
+<li>Selecting some text and pressing <kbd>&gt;</kbd> will convert it to blockquote. The first and the last line don&#39;t have to be fully selected; partial select works, too.</li>
+<li>Left bracket pairing is modified to eliminate the selection and leave the cursor at a point where you can insert a <code>[]</code> or <code>()</code> pair for a link</li>
+<li>Displays Markdown headers in the Project Symbol List (<kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>R</kbd>). They will start with <code>#</code>, so you will know they belong to markdown files at a glance. Also they will be on top of the list because of the presedence of <code>#</code>.</li>
+<li><kbd>~</kbd> wraps selected text with <code>~~</code> (strikethrough).</li>
+<li>Typing <code>#</code> when there&#39;s a selection will surround it with <code>#</code> to make it a headline. Multiple presses add additional hashes, increasing the level of the header. Once you hit 6 hashes, it will reset to 0 on the next press. The <code>mde.match_header_hashes</code> will determine if the <code>#</code> are mirrored on both sides or just at the beginning of the line.</li>
+<li>Typing return at the end of a line that begins with hashmarks will insert closing hashmarks on the headline. They&#39;re not required for Markdown, it&#39;s just aesthetics, and you can change the <code>mde.match_header_hashes</code> option in your settings to disable.</li>
+<li>Setext-style headers can be completed with <code>Tab</code>. That is, typing <code>Tab</code> on a line containing only <code>=</code> or <code>-</code> characters will add or remove enough characters to it to match the length of the line above.</li>
+</ul>
+
+<h2>Key Bindings</h2>
+
+<table><thead>
+<tr>
+<th>OS X</th>
+<th>Windows/Linux</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><kbd>⌘</kbd><kbd>⌥</kbd><kbd>V</kbd></td>
+<td><kbd>Ctrl</kbd><kbd>Win</kbd><kbd>V</kbd></td>
+<td>Pastes the contents of the clipboard as an inline link on selected text.</td>
+</tr>
+<tr>
+<td><kbd>⌘</kbd><kbd>⌥</kbd><kbd>R</kbd></td>
+<td><kbd>Ctrl</kbd><kbd>Win</kbd><kbd>R</kbd></td>
+<td>Pastes the contents of the clipboard as a reference link.</td>
+</tr>
+<tr>
+<td><kbd>⌘</kbd><kbd>⌥</kbd><kbd>K</kbd></td>
+<td><kbd>Ctrl</kbd><kbd>Win</kbd><kbd>K</kbd></td>
+<td>Inserts a standard inline link.</td>
+</tr>
+<tr>
+<td><kbd>⌘</kbd><kbd>⇧</kbd><kbd>K</kbd></td>
+<td><kbd>Shift</kbd><kbd>Win</kbd><kbd>K</kbd></td>
+<td>Inserts an inline image.</td>
+</tr>
+<tr>
+<td><kbd>⌘</kbd><kbd>⌥</kbd><kbd>B</kbd> <kbd>⌘</kbd><kbd>⌥</kbd><kbd>I</kbd></td>
+<td><kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>B</kbd> <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>I</kbd></td>
+<td>These are bound to bold and italic. They work both with and without selections. If there is no selection, they will just transform the word under the cursor. These keybindings will unbold/unitalicize selection if it is already bold/italic.</td>
+</tr>
+<tr>
+<td><kbd>⌘</kbd><kbd><sup></kbd><kbd>1...6</kbd></sup></td>
+<td><kbd>Ctrl</kbd><kbd>1...6</kbd></td>
+<td>These will add the corresponding number of hashmarks for headlines. Works on blank lines and selected text in tandem with the above headline tools. If you select an entire existing headline, the current hashmarks will be removed and replaced with the header level you requested. This command respects the <code>mde.match_header_hashes</code> preference setting.</td>
+</tr>
+<tr>
+<td><kbd>⌘</kbd><kbd>⇧</kbd><kbd>6</kbd></td>
+<td><kbd>Ctrl</kbd><kbd>⇧</kbd><kbd>6</kbd></td>
+<td>Inserts a footnote and jump to its definition. If your cursor is in a definition, it will jump back to the marker.</td>
+</tr>
+<tr>
+<td><kbd>⌥</kbd><kbd>⇧</kbd><kbd>F</kbd></td>
+<td><kbd>Alt</kbd><kbd>Shift</kbd><kbd>F</kbd></td>
+<td>Locates footnote markers without definitions and inserts their markers for the definition.</td>
+</tr>
+<tr>
+<td><kbd>⌥</kbd><kbd>⇧</kbd><kbd>G</kbd></td>
+<td><kbd>Alt</kbd><kbd>Shift</kbd><kbd>G</kbd></td>
+<td>Locates link references without definitions and inserts their labels at the bottom for the definition.</td>
+</tr>
+</tbody></table>
+
+<h2>GFM Specific Features</h2>
+
+<p>Underscores in words doesn&#39;t mess with bold or italic style:</p>
+
+<p><img src="https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/underscore-in-words.png" alt="underscore-in-words"></p>
+
+<p>Fenced code blocks gets syntax highlighting inside:</p>
+
+<p><img src="https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/fenced-code-block.png" alt="fenced-code-block"></p>
+
+<p>Keyboard shortcuts gets highlighted like in GitHub:</p>
+
+<p><img src="https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/keyboard-shortcut.png" alt="keyboard-shortcut"></p>
+
+<p>Strikethrough is supported:</p>
+
+<p><img src="https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/strikethrough.png" alt="strikethrough"></p>
+
+<h2>Commands for Command Palette</h2>
+
+<h3>Fix Underlined Headers</h3>
+
+<p>Adjusts every setext-style header to add or remove <code>=</code> or <code>-</code> characters as needed to match the lengths of their header text.</p>
+
+<h3>Convert Underlined Headers to ATX</h3>
+
+<p>Converts every setext-style header into an ATX style header. If something is selected only the headers in the selections will be converted, otherwise the conversion will be applied to the whole view.</p>
+
+<h3>Add Missing Link Labels</h3>
+
+<p>Scans document for referenced link usages (<code>[some link][some_ref]</code> and <code>[some link][]</code>) and checks if they are all defined. If there are undefined link references, command will automatically create their definition snippet at the bottom of the file.</p>
+
+<h2>Installation</h2>
+
+<p><em>Note</em>: Sublime text has a native tiny package for Markdown. However, when MarkdownEditing is enabled, native package causes some conflicts. For this reason, MarkdownEditing will automatically disable it. Since it doesn&#39;t bring anything new over MarkdownEditing, this is not a loss. But remember, when you disable MarkdownEditing, you have to reenable the native one manually (if you want).</p>
+
+<p>If you are using Sublime Text 2, you have to disable the native package <em>manually</em>. To do that, add <code>Markdown</code> to your <code>ignored_packages</code> list in ST user settings:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&quot;ignored_packages&quot;: [..., &quot;Markdown&quot;],
+</code></pre></div>
+<h3><a href="http://wbond.net/sublime_packages/package_control">Package Control</a></h3>
+
+<p>The preferred method of installation is via <a href="http://wbond.net/sublime_packages/package_control">Sublime Package Control</a>.</p>
+
+<ol>
+<li><a href="http://wbond.net/sublime_packages/package_control/installation">Install Sublime Package Control</a></li>
+<li>From inside Sublime Text, open Package Control&#39;s Command Pallet: <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>P</kbd> (Windows, Linux) or <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>P</kbd> on Mac.</li>
+<li>Type <code>install package</code> and hit Return. A list of available packages will be displayed.</li>
+<li>Type <code>MarkdownEditing</code> and hit Return. The package will be downloaded to the appropriate directory.</li>
+<li>Restart Sublime Text to complete installation. Open a Markdown file and this custom theme. The features listed above should now be available.</li>
+</ol>
+
+<h3>Manual Installation</h3>
+
+<ol>
+<li>Download or clone this repository to a directory <code>MarkdownEditing</code> in the Sublime Text Packages directory for your platform:
+
+<ul>
+<li>Mac: <code>git clone https://github.com/SublimeText-Markdown/MarkdownEditing.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/MarkdownEditing</code></li>
+<li>Windows: <code>git clone https://github.com/SublimeText-Markdown/MarkdownEditing.git %APPDATA%\Sublime/ Text/ 2/\MarkdownEditing</code></li>
+<li>Linux: <code>git clone https://github.com/SublimeText-Markdown/MarkdownEditing.git ~/.Sublime\ Text\ 2/Packages/MarkdownEditing</code></li>
+</ul></li>
+<li>Restart Sublime Text to complete installation. Open a Markdown file and this custom theme. The features listed above should now be available.</li>
+</ol>
+
+<h2>Configuration</h2>
+
+<p>The plugin contains 3 different Markdown flavors: Standard Markdown, GitHub flavored Markdown, MultiMarkdown. Default is GitHub flavored Markdown. If you want to set another one as default, open a Markdown file and select your flavor from the menu: <code>View &gt; Syntax &gt; Open all with current extension as</code>. You&#39;re done.</p>
+
+<p>You may want to have a look at the default settings files. They are located at:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Packages/MarkdownEditing/Markdown.sublime-settings         [GitHub flavored Markdown]
+Packages/MarkdownEditing/Markdown (Standard).sublime-settings
+Packages/MarkdownEditing/MultiMarkdown.sublime-settings
+</code></pre></div>
+<p>If you want to override any of the default settings, you can open the appropriate user settings file using the <code>Preferences &gt; Package Settings &gt; Markdown Editing</code> menu. Each flavor has a different settings file.</p>
+
+<p>Bold and italic markers are configurable through ST shell variables. You can use <code>Preferences &gt; Package Settings &gt; Markdown Editing</code> menu to see the default settings file. In order to override it, copy &amp; paste its content into the user settings file (<code>Packages/User/Bold and Italic Markers.tmPreferences</code>) from the menu and make your edits. It is pretty straightforward.</p>
+
+<p>In order to activate the dark or the yellow theme, put one of these lines to your user settings file of the flavor (<code>Packages/User/[flavor].sublime-settings</code>):</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&quot;color_scheme&quot;: &quot;Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme&quot;,
+&quot;color_scheme&quot;: &quot;Packages/MarkdownEditing/MarkdownEditor-Yellow.tmTheme&quot;,
+</code></pre></div>
+<p>If you want to go with your already existing theme, you can reenable it with the same method as above. Keep in mind that, that theme may not cover all the parts of the Markdown syntax that this plugin defines.</p>
+
+<p>By default, when you install the plugin, files with these extensions will be assigned to Markdown syntax: &quot;md&quot;, &quot;txt&quot;, &quot;mdown&quot;, &quot;markdown&quot;, &quot;markdn&quot;. If you want to prevent any of these extensions to be opened as Markdown, follow these steps:</p>
+
+<ol>
+<li>Click on the language menu at bottom right</li>
+<li>Select &quot;Open all with current extension as&quot;</li>
+<li>Choose your preferred syntax for that extension</li>
+</ol>
+
+<h2>Tips</h2>
+
+<p>We are maintaining a <a href="https://github.com/SublimeText-Markdown/MarkdownEditing/wiki/Tips">tips section</a> in our <a href="https://github.com/SublimeText-Markdown/MarkdownEditing/wiki">Wiki</a>. Jump there to learn from others or share your experiences with others.</p>
+
+<h2>Similar Plugins</h2>
+
+<ul>
+<li><p><a href="https://github.com/aziz/knockdown/">Knockdown</a></p>
+
+<p>Knockdown offers useful Markdown features and a custom Markdown theme. All of its unique features except its theme are ported to MarkdownEditing and some of them are actually improved further in MarkdownEditing.</p></li>
+<li><p><a href="https://github.com/jonschlinkert/sublime-markdown-extended">Sublime Markdown Extended</a></p></li>
+<li><p><a href="https://github.com/demon386/SmartMarkdown">SmartMarkdown</a></p></li>
+</ul>
+
+<h2>Known Bugs</h2>
+
+<ul>
+<li>Setext-style headers (<code>===</code> and <code>---</code>) do not show up in the symbol list. This is due to a Sublime Text limitation (see <a href="https://github.com/SublimeText-Markdown/MarkdownEditing/issues/158">#158</a>). However, we are able to put a placeholder to indicate the existence of the header. We encourage you to use Atx-style headers (<code>#</code>).</li>
+</ul>
+
+<h2>Contributing</h2>
+
+<p>See <code>CONTRIBUTING.md</code> file.</p>
+
+<h2>Credits</h2>
+
+<p>MarkdownEditing was originally created by <a href="http://brettterpstra.com">Brett Terpstra</a> and has become a community project with the goal of consolidating the best features from the varied collection of Markdown packages for Sublime Text. Current development is headed up by <a href="https://github.com/maliayas">Ali Ayas</a>.</p>
+
+<p>Related blog posts from Brett:<br>
+* <a href="http://brettterpstra.com/2012/05/17/markdown-editing-for-sublime-text-2-humble-beginnings/">http://brettterpstra.com/2012/05/17/markdown-editing-for-sublime-text-2-humble-beginnings/</a><br>
+* <a href="http://brettterpstra.com/2013/11/23/markdownediting-for-sublime-text-updates/">http://brettterpstra.com/2013/11/23/markdownediting-for-sublime-text-updates/</a></p>
+
+<p>This plugin contains portions of code from <a href="https://github.com/aziz/knockdown/">Knockdown</a>.</p>
+
+<p>Footnote commands were submitted by <a href="https://github.com/jngeist">J. Nicholas Geist</a> and originated at <a href="http://geekabouttown.com/posts/sublime-text-2-markdown-footnote-goodness">geekabouttown</a>.</p>
+
+<h2>License</h2>
+
+<p>MarkdownEditing is released under the <a href="http://www.opensource.org/licenses/MIT">MIT License</a>.</p>
+	
+	
+	<!-- tag "infrastructure" if there are tags -->
+    
+  	<div class="tag-icon-image"> 
+   <span class="entry-tags"><a href="http://clouds2.github.io/tags/#markdown" title="Pages tagged markdown" rel="tag">markdown</a></span>
+     </div>
+  
+  </div>
+  
+ 
+
+<a href="#" class="scrollToTop"></a>
+
+<!-- knlee 댓글 삭제 
+  
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+    
+	    var disqus_shortname = 'clouds2'; 
+
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+  -->
+
+  
+</article>
+
+
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+ <!-- TOC Generator -->
+  <script src="/js/jquery.toc-1.1.4.min.js"></script> 
+  <script src="/js/videoresponsive.js"></script>  
+ 
+
+  <script>
+    // $('#toc').toc();
+ $('#toc').toc({exclude: 'h1, h6', autoId: true});
+
+  </script>
+  
+  
+  
+
+  
+  
+  
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+                    
+          
+          
+          
+          <a href="http://github.com/clouds2"><svg width="40px" height="40px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <path d="M0.336871032,30 C0.336871032,13.4314567 13.5672313,0 29.8877097,0 C46.208188,0 59.4385483,13.4314567 59.4385483,30 C59.4385483,46.5685433 46.208188,60 29.8877097,60 C13.5672313,60 0.336871032,46.5685433 0.336871032,30 Z M0.336871032,30" id="Github" fill="#333333" sketch:type="MSShapeGroup"></path>
+    <path d="M18.2184245,31.9355566 C19.6068506,34.4507902 22.2845295,36.0156764 26.8007287,36.4485173 C26.1561023,36.9365335 25.3817877,37.8630984 25.2749857,38.9342607 C24.4644348,39.4574749 22.8347506,39.62966 21.5674303,39.2310659 C19.7918469,38.6717023 19.1119377,35.1642642 16.4533306,35.6636959 C15.8773626,35.772144 15.9917933,36.1507609 16.489567,36.4722998 C17.3001179,36.9955141 18.0629894,37.6500075 18.6513541,39.04366 C19.1033554,40.113871 20.0531304,42.0259813 23.0569369,42.0259813 C24.2489236,42.0259813 25.0842679,41.8832865 25.0842679,41.8832865 C25.0842679,41.8832865 25.107154,44.6144649 25.107154,45.6761142 C25.107154,46.9004355 23.4507693,47.2457569 23.4507693,47.8346108 C23.4507693,48.067679 23.9990832,48.0895588 24.4396415,48.0895588 C25.3102685,48.0895588 27.1220883,47.3646693 27.1220883,46.0918317 C27.1220883,45.0806012 27.1382993,41.6806599 27.1382993,41.0860982 C27.1382993,39.785673 27.8372803,39.3737607 27.8372803,39.3737607 C27.8372803,39.3737607 27.924057,46.3153869 27.6704022,47.2457569 C27.3728823,48.3397504 26.8360115,48.1846887 26.8360115,48.6727049 C26.8360115,49.3985458 29.0168704,48.8505978 29.7396911,47.2571725 C30.2984945,46.0166791 30.0543756,39.2072834 30.0543756,39.2072834 L30.650369,39.1949165 C30.650369,39.1949165 30.6837446,42.3123222 30.6637192,43.7373675 C30.6427402,45.2128317 30.5426134,47.0792797 31.4208692,47.9592309 C31.9977907,48.5376205 33.868733,49.5526562 33.868733,48.62514 C33.868733,48.0857536 32.8436245,47.6424485 32.8436245,46.1831564 L32.8436245,39.4688905 C33.6618042,39.4688905 33.5387911,41.6768547 33.5387911,41.6768547 L33.5988673,45.7788544 C33.5988673,45.7788544 33.4186389,47.2733446 35.2190156,47.8992991 C35.8541061,48.1209517 37.2139245,48.1808835 37.277815,47.8089257 C37.3417055,47.4360167 35.6405021,46.8814096 35.6252446,45.7236791 C35.6157088,45.0178155 35.6567131,44.6059032 35.6567131,41.5379651 C35.6567131,38.470027 35.2438089,37.336079 33.8048426,36.4323453 C38.2457082,35.9766732 40.9939527,34.880682 42.3337458,31.9450695 C42.4383619,31.9484966 42.8791491,30.5737742 42.8219835,30.5742482 C43.1223642,29.4659853 43.2844744,28.1550957 43.3168964,26.6025764 C43.3092677,22.3930799 41.2895654,20.9042975 40.9014546,20.205093 C41.4736082,17.0182425 40.8060956,15.5675121 40.4961791,15.0699829 C39.3518719,14.6637784 36.5149435,16.1145088 34.9653608,17.1371548 C32.438349,16.3998984 27.0982486,16.4712458 25.0957109,17.3274146 C21.4005522,14.6875608 19.445694,15.0918628 19.445694,15.0918628 C19.445694,15.0918628 18.1821881,17.351197 19.1119377,20.6569598 C17.8961113,22.2028201 16.9902014,23.2968136 16.9902014,26.1963718 C16.9902014,27.8297516 17.1828264,29.2918976 17.6176632,30.5685404 C17.5643577,30.5684093 18.2008493,31.9359777 18.2184245,31.9355566 Z M18.2184245,31.9355566" id="Path" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+    <path d="M59.4385483,30 C59.4385483,46.5685433 46.208188,60 29.8877097,60 C23.8348308,60 18.2069954,58.1525134 13.5216148,54.9827754 L47.3818361,5.81941103 C54.6937341,11.2806503 59.4385483,20.0777973 59.4385483,30 Z M59.4385483,30" id="reflec" fill-opacity="0.08" fill="#000000" sketch:type="MSShapeGroup"></path>
+</svg></a>
+          
+          
+          
+          <!-- knlee December 20, 2014
+          <a href="http://feeds.feedburner.com/clouds2/"><svg width="40px" height="40px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <path d="M0.112290344,30 C0.112290344,13.4314567 13.3426506,0 29.663129,0 C45.9836073,0 59.2139676,13.4314567 59.2139676,30 C59.2139676,46.5685433 45.9836073,60 29.663129,60 C13.3426506,60 0.112290344,46.5685433 0.112290344,30 Z M0.112290344,30" fill="#E18F00" sketch:type="MSShapeGroup"></path>
+    <path d="M26.5147755,38.7571296 C26.5147755,36.8192934 24.9575021,35.2291656 23.0297047,35.2291656 C21.1094331,35.2291656 19.5492775,36.8192934 19.5492775,38.7571296 C19.5492775,40.7052068 21.1094331,42.277616 23.0297047,42.277616 C24.957422,42.277616 26.5146954,40.7052881 26.5147755,38.7571296 Z M36.8075433,42.2700571 C36.8075433,32.6055847 29.062648,24.7442705 19.5492775,24.7442705 L19.5492775,29.8318017 C22.8128986,29.8318017 25.8817303,31.1272145 28.1920609,33.4740429 C30.4999895,35.8159133 31.7732853,38.9454513 31.7732853,42.2701384 L36.8075433,42.2700571 Z M45.6871482,42.2675375 C45.6871482,27.6346878 33.9604014,15.722384 19.5492775,15.722384 L19.5492775,20.8123535 C31.186916,20.8123535 40.660496,30.438869 40.660496,42.2673749 L45.6871482,42.2675375 Z M45.6871482,42.2675375" id="Path" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+    <path d="M59.2139676,30 C59.2139676,46.5685433 45.9836073,60 29.663129,60 C23.6102502,60 17.9824147,58.1525134 13.2970341,54.9827754 L47.1572554,5.81941103 C54.4691534,11.2806503 59.2139676,20.0777973 59.2139676,30 Z M59.2139676,30" id="reflec" fill-opacity="0.08" fill="#000000" sketch:type="MSShapeGroup"></path>
+</svg></a>
+          -->
+          <a href="http://clouds2.github.io/rss.xml"><svg width="40px" height="40px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <path d="M0.112290344,30 C0.112290344,13.4314567 13.3426506,0 29.663129,0 C45.9836073,0 59.2139676,13.4314567 59.2139676,30 C59.2139676,46.5685433 45.9836073,60 29.663129,60 C13.3426506,60 0.112290344,46.5685433 0.112290344,30 Z M0.112290344,30" fill="#E18F00" sketch:type="MSShapeGroup"></path>
+    <path d="M26.5147755,38.7571296 C26.5147755,36.8192934 24.9575021,35.2291656 23.0297047,35.2291656 C21.1094331,35.2291656 19.5492775,36.8192934 19.5492775,38.7571296 C19.5492775,40.7052068 21.1094331,42.277616 23.0297047,42.277616 C24.957422,42.277616 26.5146954,40.7052881 26.5147755,38.7571296 Z M36.8075433,42.2700571 C36.8075433,32.6055847 29.062648,24.7442705 19.5492775,24.7442705 L19.5492775,29.8318017 C22.8128986,29.8318017 25.8817303,31.1272145 28.1920609,33.4740429 C30.4999895,35.8159133 31.7732853,38.9454513 31.7732853,42.2701384 L36.8075433,42.2700571 Z M45.6871482,42.2675375 C45.6871482,27.6346878 33.9604014,15.722384 19.5492775,15.722384 L19.5492775,20.8123535 C31.186916,20.8123535 40.660496,30.438869 40.660496,42.2673749 L45.6871482,42.2675375 Z M45.6871482,42.2675375" id="Path" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+    <path d="M59.2139676,30 C59.2139676,46.5685433 45.9836073,60 29.663129,60 C23.6102502,60 17.9824147,58.1525134 13.2970341,54.9827754 L47.1572554,5.81941103 C54.4691534,11.2806503 59.2139676,20.0777973 59.2139676,30 Z M59.2139676,30" id="reflec" fill-opacity="0.08" fill="#000000" sketch:type="MSShapeGroup"></path>
+</svg></a>
+          <a href="http://twitter.com/cloudshand"><svg width="40px" height="40px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <path d="M0,30 C0,13.4314567 13.4508663,0 30.0433526,0 C46.6358389,0 60.0867052,13.4314567 60.0867052,30 C60.0867052,46.5685433 46.6358389,60 30.0433526,60 C13.4508663,60 0,46.5685433 0,30 Z M0,30" fill="#4099FF" sketch:type="MSShapeGroup"></path>
+    <path d="M29.2997675,23.8879776 L29.3627206,24.9260453 L28.3135016,24.798935 C24.4943445,24.3116787 21.1578281,22.6592444 18.3249368,19.8840023 L16.9399677,18.5069737 L16.5832333,19.5238563 C15.8277956,21.7906572 16.3104363,24.1845684 17.8842648,25.7946325 C18.72364,26.6844048 18.5347806,26.8115152 17.0868584,26.2818888 C16.5832333,26.1124083 16.1425613,25.985298 16.1005925,26.0488532 C15.9537019,26.1971486 16.457327,28.1249885 16.8560302,28.8876505 C17.4016241,29.9469033 18.5137962,30.9849709 19.7308902,31.5993375 L20.7591248,32.0865938 L19.5420308,32.1077788 C18.3669055,32.1077788 18.3249368,32.1289639 18.4508431,32.57385 C18.8705307,33.9508786 20.5282967,35.4126474 22.3749221,36.048199 L23.6759536,36.4930852 L22.5427971,37.1710069 C20.8640467,38.1455194 18.891515,38.6963309 16.9189833,38.738701 C15.9746862,38.759886 15.1982642,38.8446262 15.1982642,38.9081814 C15.1982642,39.1200319 17.7583585,40.306395 19.2482495,40.7724662 C23.7179224,42.1494948 29.0269705,41.5563132 33.0140027,39.2047722 C35.846894,37.5311528 38.6797853,34.2050993 40.0018012,30.9849709 C40.7152701,29.2689815 41.428739,26.1335934 41.428739,24.6294545 C41.428739,23.654942 41.4916922,23.5278317 42.6668174,22.3626537 C43.359302,21.6847319 44.0098178,20.943255 44.135724,20.7314044 C44.3455678,20.3288884 44.3245835,20.3288884 43.2543801,20.6890343 C41.4707078,21.324586 41.2188952,21.2398458 42.1002392,20.2865183 C42.750755,19.6085965 43.527177,18.3798634 43.527177,18.0197174 C43.527177,17.9561623 43.2124113,18.0620876 42.8556769,18.252753 C42.477958,18.4646036 41.6385828,18.7823794 41.0090514,18.9730449 L39.8758949,19.3331908 L38.8476603,18.634084 C38.281082,18.252753 37.4836756,17.829052 37.063988,17.7019416 C35.9937846,17.4053509 34.357003,17.447721 33.3917215,17.7866818 C30.768674,18.7400093 29.110908,21.1974757 29.2997675,23.8879776 Z M29.2997675,23.8879776" id="Path" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+    <path d="M60.0867052,30 C60.0867052,46.5685433 46.6358389,60 30.0433526,60 C23.8895925,60 18.1679598,58.1525134 13.4044895,54.9827754 L47.8290478,5.81941103 C55.2628108,11.2806503 60.0867052,20.0777973 60.0867052,30 Z M60.0867052,30" id="reflec" fill-opacity="0.08" fill="#000000" sketch:type="MSShapeGroup"></path>
+</svg></a>
+          
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+	
+	
+	<!--whosamungus
+  	<a href="http://whos.amung.us/stats/bjjgp0i2qtj2/">
+    <img src="http://whos.amung.us/widget/bjjgp0i2qtj2.png" width="0" height="0" border="0">
+      -->
+
+      
+</a>
+	
+  </body>
+  
+  
+</html>
