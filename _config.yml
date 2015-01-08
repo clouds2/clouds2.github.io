@@ -10,10 +10,11 @@ lsi: false
 name: cloudshand
 
 # Short bio or description (displayed in the header)
-description: 구름손여행기 
+description: 구름손 여행기 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars2.githubusercontent.com/u/6959097?v=3&s=460
+#avatar: https://avatars2.githubusercontent.com/u/6959097?v=3&s=460
+avatar: "/images/avatar.jpg"
 
 #
 # Flags below are optional

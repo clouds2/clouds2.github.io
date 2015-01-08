@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 블로그 테스트1 - MarkdownEditing Readme
+title: 포스트 테스트1 - MarkdownEditing Readme
 tags: [markdown]
 ---
 
